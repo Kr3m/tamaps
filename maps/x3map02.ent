@@ -674,14 +674,14 @@
 }
 {
 "gametype" "oneflag"
-"origin" "1920 504 -140"
+"origin" "1920 504 -160"
 "classname" "team_CTF_neutralflag"
+"angle" "270"
 }
 {
 "classname" "team_redobelisk"
-"angle" "270"
+"angle" "90"
 "origin" "1984 3460 72"
-"gametype" "harvester , obelisk , ctf , oneflag"
 }
 {
 "origin" "2279 3641 -88"
@@ -2480,13 +2480,12 @@
 }
 {
 "origin" "1856 -2460 72"
-"angle" "90"
+"angle" "270"
 "classname" "team_blueobelisk"
-"gametype" "harvester , obelisk , ctf , oneflag"
 }
 {
-"angle" "90"
-"origin" "1856 -2460 96"
+"angle" "180"
+"origin" "1856 -2460 92"
 "classname" "team_CTF_blueflag"
 "gametype" "ctf , oneflag"
 }
@@ -2872,6 +2871,7 @@
 "gametype" "oneflag , harvester"
 "origin" "1920 504 -180"
 "classname" "team_neutralobelisk"
+"angle" "0"
 }
 {
 "classname" "holdable_medkit"
@@ -3085,8 +3085,8 @@
 {
 "gametype" "ctf , oneflag"
 "classname" "team_CTF_redflag"
-"angle" "270"
-"origin" "1984 3460 96"
+"angle" "0"
+"origin" "1984 3460 92"
 }
 {
 "origin" "1152 1440 -172"

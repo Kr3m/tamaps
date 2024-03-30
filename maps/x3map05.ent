@@ -2292,15 +2292,15 @@
 }
 {
 "classname" "team_CTF_redflag"
-"origin" "-2816 2368 216"
+"origin" "-2816 2368 148"
 "gametype" "ctf , oneflag"
-"angle" "45"
+"angle" "225"
 }
 {
 "classname" "team_CTF_blueflag"
-"origin" "3456 1728 232"
+"origin" "3456 1728 148"
 "gametype" "ctf , oneflag"
-"angle" "225"
+"angle" "45"
 }
 {
 "classname" "team_CTF_blueplayer"
@@ -2666,11 +2666,13 @@
 "classname" "team_neutralobelisk"
 "origin" "320 2048 -256"
 "gametype" "oneflag , harvester"
+"angle" "90"
 }
 {
 "classname" "team_CTF_neutralflag"
-"origin" "320 2048 -136"
+"origin" "320 2048 -236"
 "gametype" "oneflag"
+"angle" "0"
 }
 {
 "classname" "team_blueobelisk"
