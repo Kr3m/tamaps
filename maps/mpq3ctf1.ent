@@ -3075,7 +3075,7 @@
 }
 {
 "origin" "736 -2532 192"
-"angle" "90"
+"angle" "0"
 "classname" "team_CTF_redflag"
 "gametype" "ctf oneflag"
 }
@@ -3086,7 +3086,7 @@
 }
 {
 "origin" "736 1250 184"
-"angle" "270"
+"angle" "180"
 "classname" "team_CTF_blueflag"
 "gametype" "ctf oneflag"
 }
@@ -3094,11 +3094,13 @@
 "origin" "768 -636 48"
 "classname" "team_CTF_neutralflag"
 "gametype" "oneflag"
+"angle" "270"
 }
 {
 "origin" "768 -636 24"
 "classname" "team_neutralobelisk"
 "gametype" "harvester oneflag"
+"angle" "0"
 }
 {
 "classname" "item_armor_shard"
