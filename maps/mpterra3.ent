@@ -326,8 +326,8 @@
 "classname" "team_CTF_redplayer"
 }
 {
-"origin" "5120 4840 848"
-"angle" "180"
+"origin" "5120 4840 856"
+"angle" "90"
 "gametype" "ctf oneflag"
 "classname" "team_CTF_redflag"
 }
@@ -353,7 +353,7 @@
 }
 {
 "classname" "team_CTF_neutralflag"
-"angle" "90"
+"angle" "0"
 "gametype" "oneflag"
 "origin" "96 -88 648"
 }
@@ -1099,8 +1099,8 @@
 {
 "classname" "team_CTF_blueflag"
 "gametype" "ctf oneflag"
-"angle" "0"
-"origin" "-4936 -5032 848"
+"angle" "270"
+"origin" "-4936 -5032 856"
 }
 {
 "origin" "-3376 -5192 840"

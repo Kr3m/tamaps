@@ -125,6 +125,7 @@
 "spawnflags" "1"
 "classname" "team_CTF_neutralflag"
 "gametype" "oneflag"
+"angle" "270"
 }
 {
 "classname" "ammo_belt"
@@ -156,13 +157,13 @@
 {
 "gametype" "ctf oneflag"
 "classname" "team_CTF_blueflag"
-"angle" "90"
-"origin" "192 -2304 16"
+"angle" "0"
+"origin" "192 -2304 24"
 }
 {
 "gametype" "oneflag ctf"
 "classname" "team_CTF_redflag"
-"angle" "270"
+"angle" "180"
 "origin" "192 2304 24"
 }
 {

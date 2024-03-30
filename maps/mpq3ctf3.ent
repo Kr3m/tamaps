@@ -140,7 +140,7 @@
 "origin" "32 3872 256"
 }
 {
-"angle" "90"
+"angle" "180"
 "origin" "32 576 0"
 "gametype" "harvester oneflag"
 "classname" "team_neutralobelisk"
@@ -394,8 +394,8 @@
 "origin" "32 -2656 280"
 }
 {
-"angle" "90"
-"origin" "32 -2720 272"
+"angle" "0"
+"origin" "32 -2720 280"
 "classname" "team_CTF_blueflag"
 "gametype" "ctf oneflag"
 }
@@ -1301,7 +1301,7 @@
 "classname" "info_player_deathmatch"
 }
 {
-"angle" "270"
+"angle" "180"
 "classname" "team_CTF_redflag"
 "origin" "32 3872 280"
 "gametype" "oneflag ctf"

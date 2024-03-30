@@ -311,7 +311,7 @@
 "origin" "-2248 -544 432"
 }
 {
-"angle" "360"
+"angle" "270"
 "spawnflags" "256"
 "classname" "team_CTF_redflag"
 "origin" "-2208 -288 307"
@@ -2686,9 +2686,9 @@
 "origin" "2616 -16 432"
 }
 {
-"angle" "180"
+"angle" "90"
 "classname" "team_CTF_blueflag"
-"origin" "2576 -272 298"
+"origin" "2576 -272 307"
 "gametype" "ctf oneflag"
 }
 {
@@ -7809,7 +7809,7 @@
 }
 {
 "angle" "180"
-"origin" "2576 -272 282"
+"origin" "2576 -272 283"
 "classname" "team_blueobelisk"
 }
 {

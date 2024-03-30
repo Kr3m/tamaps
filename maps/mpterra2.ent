@@ -436,6 +436,7 @@
 {
 "origin" "0 0 648"
 "classname" "team_neutralobelisk"
+"angle" "45"
 }
 {
 "classname" "light"
@@ -665,6 +666,7 @@
 "classname" "team_CTF_neutralflag"
 "origin" "0 0 672"
 "gametype" "oneflag"
+"angle" "315"
 }
 {
 "classname" "target_position"
@@ -901,7 +903,7 @@
 "gametype" "ctf, oneflag"
 "origin" "-2176 6336 664"
 "classname" "team_CTF_redflag"
-"angle" "90"
+"angle" "0"
 }
 {
 "target" "t28"
@@ -1092,7 +1094,7 @@
 }
 {
 "gametype" "ctf, oneflag"
-"angle" "270"
+"angle" "180"
 "classname" "team_CTF_blueflag"
 "origin" "2176 -6336 664"
 }

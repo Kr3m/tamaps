@@ -389,7 +389,7 @@
 }
 {
 "classname" "team_CTF_neutralflag"
-"origin" "576 -768 665"
+"origin" "576 -768 664"
 "gametype" "oneflag"
 "notfree" "1"
 }
@@ -4216,14 +4216,14 @@
 }
 {
 "classname" "team_CTF_redflag"
-"angle" "270"
+"angle" "180"
 "origin" "-1728 -1616 504"
 "gametype" "oneflag ctf"
 }
 {
 "gametype" "ctf oneflag"
-"origin" "2880 80 496"
-"angle" "90"
+"origin" "2880 80 504"
+"angle" "0"
 "classname" "team_CTF_blueflag"
 }
 {
@@ -6006,6 +6006,7 @@
 "origin" "576 -768 640"
 "classname" "team_neutralobelisk"
 "notfree" "1"
+"angle" "90"
 }
 {
 "classname" "light"

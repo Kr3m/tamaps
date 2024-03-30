@@ -1107,11 +1107,11 @@
 {
 "origin" "328 2220 448"
 "classname" "team_redobelisk"
-"angle" "270"
+"angle" "90"
 }
 {
 "origin" "328 2220 472"
-"angle" "270"
+"angle" "0"
 "classname" "team_CTF_redflag"
 "gametype" "ctf oneflag"
 }
@@ -1121,8 +1121,8 @@
 "angle" "270"
 }
 {
-"origin" "320 -1648 464"
-"angle" "270"
+"origin" "320 -1648 472"
+"angle" "180"
 "classname" "team_CTF_blueflag"
 "gametype" "ctf oneflag"
 }
@@ -1171,4 +1171,5 @@
 "gametype" "oneflag"
 "classname" "team_CTF_neutralflag"
 "origin" "320 288 24"
+"angle" "0"
 }
