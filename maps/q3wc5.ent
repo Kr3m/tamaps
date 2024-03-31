@@ -569,7 +569,7 @@
 "classname" "item_health"
 }
 {
-"origin" "0 896 16"
+"origin" "0 896 24"
 "angle" "360"
 "classname" "team_CTF_blueflag"
 "gametype" "ctf, oneflag"
@@ -1252,7 +1252,7 @@
 {
 "classname" "team_CTF_redflag"
 "angle" "180"
-"origin" "0 -896 16"
+"origin" "0 -896 24"
 "gametype" "ctf, oneflag"
 }
 {

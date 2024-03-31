@@ -728,7 +728,7 @@
 "gametype" "ctf,oneflag"
 "angle" "360"
 "classname" "team_CTF_blueflag"
-"origin" "0 2080 40"
+"origin" "0 2080 48"
 }
 {
 "classname" "light"
@@ -1655,7 +1655,7 @@
 "gametype" "ctf,oneflag"
 "angle" "180"
 "classname" "team_CTF_redflag"
-"origin" "0 -2080 40"
+"origin" "0 -2080 48"
 }
 {
 "classname" "light"
