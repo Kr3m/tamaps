@@ -645,7 +645,7 @@
 {
 "gametype" "ctf,oneflag"
 "classname" "team_CTF_blueflag"
-"origin" "880 64 -12"
+"origin" "880 64 -8"
 "angle" "90"
 "notta" "1"
 }
@@ -2280,7 +2280,7 @@
 }
 {
 "angle" "270"
-"origin" "-3668 256 -16"
+"origin" "-3668 256 -8"
 "classname" "team_CTF_redflag"
 "gametype" "oneflag,ctf"
 "notq3a" "1"
