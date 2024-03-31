@@ -3729,7 +3729,7 @@
 "origin" "2368 -116 -316"
 }
 {
-"origin" "0 20 -1632"
+"origin" "0 20 -1638"
 "gametype" "oneflag"
 "classname" "team_CTF_neutralflag"
 "spawnflags" "1"
