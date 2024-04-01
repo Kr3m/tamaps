@@ -711,7 +711,7 @@
 "gametype" "ctf,oneflag"
 "angle" "180"
 "classname" "team_CTF_redflag"
-"origin" "512 1536 -944"
+"origin" "512 1536 -936"
 }
 {
 "angle" "270"
@@ -1991,7 +1991,7 @@
 "targetname" "t72"
 }
 {
-"origin" "512 -1536 -944"
+"origin" "512 -1536 -936"
 "classname" "team_CTF_blueflag"
 "angle" "360"
 "gametype" "ctf,oneflag"

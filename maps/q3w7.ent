@@ -98,6 +98,7 @@
 "origin" "-1536 -2560 0"
 "gametype" "harvester, oneflag"
 "classname" "team_neutralobelisk"
+"angle" "90"
 }
 {
 "origin" "-1536 -2560 24"
@@ -178,7 +179,6 @@
 }
 {
 "origin" "-3328 2944 0"
-"gametype" "ctf, oneflag, obelisk, harvester"
 "angle" "315"
 "classname" "team_redobelisk"
 }
@@ -10771,7 +10771,6 @@
 {
 "classname" "team_blueobelisk"
 "angle" "135"
-"gametype" "ctf, oneflag, obelisk, harvester"
 "origin" "1280 -896 0"
 }
 {
