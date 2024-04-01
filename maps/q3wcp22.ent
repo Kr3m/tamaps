@@ -256,6 +256,7 @@
 "gametype" "oneflag, harvester"
 "classname" "team_neutralobelisk"
 "origin" "0 0 192"
+"angle" "90"
 }
 {
 "gametype" "oneflag"

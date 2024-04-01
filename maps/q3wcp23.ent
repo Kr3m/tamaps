@@ -366,8 +366,9 @@
 }
 {
 "gametype" "ctf,oneflag"
-"origin" "832 -3072 84"
+"origin" "832 -3072 88"
 "classname" "team_CTF_blueflag"
+"angle" "180"
 }
 {
 "origin" "1408 -48 224"
@@ -799,9 +800,9 @@
 "model" "*28"
 }
 {
-"origin" "832 3008 84"
+"origin" "832 3008 88"
 "classname" "team_CTF_redflag"
-"angle" "180"
+"angle" "0"
 "gametype" "ctf,oneflag"
 }
 {
