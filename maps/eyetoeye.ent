@@ -344,3 +344,19 @@
 "origin" "672 -672 72"
 "classname" "team_dom_point"
 }
+
+//Added by Kr3m
+
+{
+"angle" "315"
+"origin" "0 0 -16"
+"classname" "team_CTF_neutralflag"
+"gametype" "oneflag"
+}
+
+{
+"angle" "45"
+"origin" "0 0 -40"
+"classname" "team_neutralobelisk"
+"gametype" "oneflag, harvester"
+}
