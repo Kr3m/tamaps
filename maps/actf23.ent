@@ -3427,3 +3427,29 @@
 "classname" "item_health_mega"
 "spawnflags" "1"
 }
+
+//Added by Kr3m
+
+{
+"classname" "team_CTF_neutralflag"
+"origin" "0 -2264 -234"
+"gametype" "oneflag"
+}
+
+{
+"classname" "team_neutralobelisk"
+"origin" "0 -2264 -258"
+"gametype" "oneflag, harvester"
+}
+
+{
+"origin" "2584 3824 96"
+"angle" "270"
+"classname" "team_redobelisk"
+}
+
+{
+"origin" "-2648 3824 96"
+"angle" "270"
+"classname" "team_blueobelisk"
+}

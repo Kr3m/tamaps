@@ -1998,3 +1998,28 @@
 "origin" "1024 0 192"
 "angle" "0"
 }
+
+//Added by Kr3m
+
+{
+"origin" "1344 0 -40"
+"classname" "team_CTF_neutralflag"
+"gametype" "oneflag"
+}
+
+{
+"origin" "1344 0 -64"
+"classname" "team_neutralobelisk"
+"gametype" "oneflag, harvester"
+}
+
+{
+"origin" "2624 0 48"
+"classname" "team_redobelisk"
+}
+
+{
+"classname" "team_blueobelisk"
+"origin" "64 0 48"
+"angle" "180"
+}

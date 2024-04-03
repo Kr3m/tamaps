@@ -3867,3 +3867,17 @@
 "origin" "-800 1312 272"
 "classname" "item_armor_shard"
 }
+
+//Added by Kr3m
+
+{
+"origin" "-3552 768 -704"
+"classname" "team_redobelisk"
+"angle" "270"
+}
+
+{
+"classname" "team_blueobelisk"
+"origin" "-480 768 -704"
+"angle" "270"
+}

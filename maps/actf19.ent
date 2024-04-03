@@ -1227,3 +1227,29 @@
 "noise" "sound/yog3dm4/lightf_broke.wav"
 "spawnflags" "0"
 }
+
+//Added by Kr3m
+
+{
+"classname" "team_CTF_neutralflag"
+"origin" "0 0 -8"
+"gametype" "oneflag"
+}
+
+{
+"classname" "team_neutralobelisk"
+"origin" "0 0 -32"
+"gametype" "oneflag, harvester"
+}
+
+{
+"origin" "0 2624 160"
+"classname" "team_redobelisk"
+"angle" "270"
+}
+
+{
+"classname" "team_blueobelisk"
+"origin" "0 -2624 160"
+"angle" "90"
+}

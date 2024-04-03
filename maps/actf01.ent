@@ -2214,3 +2214,29 @@
 "weigh" "600"
 "classname" "item_botroam"
 }
+
+//Added by Kr3m
+
+{
+"classname" "team_CTF_neutralflag"
+"origin" "0 0 284"
+"gametype" "oneflag"
+}
+
+{
+"classname" "team_neutralobelisk"
+"origin" "0 0 260"
+"gametype" "oneflag, harvester"
+}
+
+{
+"classname" "team_redobelisk"
+"angle" "90"
+"origin" "2048 -3936 736"
+}
+
+{
+"classname" "team_blueobelisk"
+"angle" "270"
+"origin" "-2048 3936 736"
+}

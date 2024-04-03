@@ -3039,3 +3039,29 @@
 "classname" "trigger_hurt"
 "model" "*30"
 }
+
+//Added by Kr3m
+
+{
+"origin" "-768 192 -422"
+"classname" "team_CTF_neutralflag"
+"gametype" "oneflag"
+}
+
+{
+"origin" "-768 192 -446"
+"classname" "team_neutralobelisk"
+"gametype" "oneflag, harvester"
+}
+
+{
+"origin" "-832 -2560 128"
+"classname" "team_redobelisk"
+"angle" "0"
+}
+
+{
+"origin" "-704 2944 128"
+"classname" "team_blueobelisk"
+"angle" "180"
+}

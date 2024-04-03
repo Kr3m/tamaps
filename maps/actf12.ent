@@ -3060,3 +3060,29 @@
 "origin" "-36 2276 44"
 "_color" "1.000000 0.5 0"
 }
+
+//Added by Kr3m
+
+{
+"classname" "team_CTF_neutralflag"
+"origin" "1152 1088 152"
+"gametype" "oneflag"
+}
+
+{
+"classname" "team_neutralobelisk"
+"origin" "1152 1088 128"
+"gametype" "oneflag, harvester"
+}
+
+{
+"origin" "216 -344 32"
+"classname" "team_redobelisk"
+"angle" "135"
+}
+
+{
+"origin" "2584 2024 32"
+"classname" "team_blueobelisk"
+"angle" "135"
+}

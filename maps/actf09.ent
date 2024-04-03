@@ -2145,3 +2145,29 @@
 "count" "4"
 "origin" "-292 1716 448"
 }
+
+//Added by Kr3m
+
+{
+"origin" "48 -624 -168"
+"classname" "team_CTF_neutralflag"
+"gametype" "oneflag"
+}
+
+{
+"origin" "48 -624 -192"
+"classname" "team_neutralobelisk"
+"gametype" "oneflag, harvester"
+}
+
+{
+"origin" "336 -3728 -16"
+"classname" "team_redobelisk"
+"angle" "90"
+}
+
+{
+"classname" "team_blueobelisk"
+"origin" "-192 2480 -16"
+"angle" "270"
+}

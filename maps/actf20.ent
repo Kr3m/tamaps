@@ -2163,3 +2163,30 @@
 "origin" "128 2144 160"
 "classname" "item_armor_body"
 }
+
+//Added by Kr3m
+
+{
+"classname" "team_CTF_neutralflag"
+"origin" "160 0 -424"
+"gametype" "oneflag"
+}
+
+{
+"classname" "team_neutralobelisk"
+"origin" "160 0 -448"
+"gametype" "oneflag, harvester"
+"angle" "90"
+}
+
+{
+"classname" "team_redobelisk"
+"origin" "896 -3264 -296"
+"angle" "225"
+}
+
+{
+"classname" "team_blueobelisk"
+"origin" "-576 3264 -296"
+"angle" "45"
+}
