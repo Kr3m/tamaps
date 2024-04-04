@@ -2903,46 +2903,43 @@
 "origin" "-2688 2368 -364"
 "angle" "315"
 }
-
-//Added by Kr3m
-
 {
 "classname" "item_ammoregen"
 "origin" "2396 -2076 -304"
-"spawnflags" "2"
+"spawnflags" "4"
 }
 {
 "origin" "2976 -2080 -308"
 "classname" "item_doubler"
-"spawnflags" "2"
+"spawnflags" "4"
 }
 {
 "classname" "item_guard"
 "origin" "2976 -2656 -304"
-"spawnflags" "2"
+"spawnflags" "4"
 }
 {
 "classname" "item_scout"
 "origin" "2400 -2656 -308"
-"spawnflags" "2"
+"spawnflags" "4"
 }
 {
 "origin" "-2396 2076 -304"
 "classname" "item_ammoregen"
-"spawnflags" "4"
+"spawnflags" "2"
+}
+{
+"classname" "item_doubler"
+"origin" "-2976 2080 -308"
+"spawnflags" "2"
 }
 {
 "origin" "-2400 2656 -308"
-"classname" "item_doubler"
-"spawnflags" "4"
-}
-{
-"classname" "item_guard"
-"origin" "-2976 2080 -308"
-"spawnflags" "4"
-}
-{
-"origin" "-2976 2656 -304"
 "classname" "item_scout"
-"spawnflags" "4"
+"spawnflags" "2"
+}
+{
+"origin" "-2976 2656 304"
+"classname" "item_guard"
+"spawnflags" "2"
 }
