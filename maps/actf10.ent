@@ -76,10 +76,12 @@
 {
 "classname" "weapon_lightning"
 "origin" "2396 -2076 -304"
+"notta" "1"
 }
 {
 "classname" "weapon_rocketlauncher"
 "origin" "2976 -2656 -304"
+"notta" "1"
 }
 {
 "classname" "holdable_medkit"
@@ -1611,10 +1613,12 @@
 {
 "origin" "2976 -2080 -308"
 "classname" "item_health"
+"notta" "1"
 }
 {
 "classname" "item_health"
 "origin" "2400 -2656 -308"
+"notta" "1"
 }
 {
 "classname" "item_health_large"
@@ -1993,10 +1997,12 @@
 {
 "origin" "-2396 2076 -304"
 "classname" "weapon_lightning"
+"notta" "1"
 }
 {
 "origin" "-2976 2656 -304"
 "classname" "weapon_rocketlauncher"
+"notta" "1"
 }
 {
 "classname" "misc_teleporter_dest"
@@ -2613,10 +2619,12 @@
 {
 "classname" "item_health"
 "origin" "-2976 2080 -308"
+"notta" "1"
 }
 {
 "origin" "-2400 2656 -308"
 "classname" "item_health"
+"notta" "1"
 }
 {
 "origin" "-2912 2368 -612"
@@ -2894,4 +2902,47 @@
 "classname" "team_blueobelisk"
 "origin" "-2688 2368 -364"
 "angle" "315"
+}
+
+//Added by Kr3m
+
+{
+"classname" "item_ammoregen"
+"origin" "2396 -2076 -304"
+"spawnflags" "2"
+}
+{
+"origin" "2976 -2080 -308"
+"classname" "item_doubler"
+"spawnflags" "2"
+}
+{
+"classname" "item_guard"
+"origin" "2976 -2656 -304"
+"spawnflags" "2"
+}
+{
+"classname" "item_scout"
+"origin" "2400 -2656 -308"
+"spawnflags" "2"
+}
+{
+"origin" "-2396 2076 -304"
+"classname" "item_ammoregen"
+"spawnflags" "4"
+}
+{
+"origin" "-2400 2656 -308"
+"classname" "item_doubler"
+"spawnflags" "4"
+}
+{
+"classname" "item_guard"
+"origin" "-2976 2080 -308"
+"spawnflags" "4"
+}
+{
+"origin" "-2976 2656 -304"
+"classname" "item_scout"
+"spawnflags" "4"
 }
