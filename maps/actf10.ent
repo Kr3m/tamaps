@@ -109,6 +109,7 @@
 {
 "classname" "weapon_railgun"
 "origin" "0 0 -80"
+"notta" "1"
 }
 {
 "angle" "270"
@@ -2942,4 +2943,9 @@
 "origin" "-2976 2656 304"
 "classname" "item_guard"
 "spawnflags" "4"
+}
+{
+"classname" "holdable_kamikaze"
+"origin" "0 0 -80"
+"wait" "120"
 }
