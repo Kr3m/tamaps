@@ -174,7 +174,7 @@
 "origin" "-1024 32 544"
 }
 {
-"classname" "ammo_grenades"
+"classname" "ammo_belt"
 "origin" "-992 -288 576"
 }
 {
@@ -186,7 +186,7 @@
 "origin" "0 384 96"
 }
 {
-"classname" "ammo_shells"
+"classname" "ammo_mines"
 "origin" "0 640 96"
 }
 {
@@ -210,7 +210,7 @@
 "origin" "-1184 -1760 128"
 }
 {
-"classname" "ammo_grenades"
+"classname" "ammo_belt"
 "origin" "-1152 -1408 128"
 }
 {
@@ -273,6 +273,7 @@
 {
 "classname" "item_health"
 "origin" "640 -960 128"
+"notta" "1"
 }
 {
 "classname" "weapon_lightning"
@@ -289,7 +290,7 @@
 "target" "t27"
 }
 {
-"classname" "weapon_shotgun"
+"classname" "weapon_prox_launcher"
 "origin" "-512 -1120 120"
 }
 {
@@ -347,7 +348,7 @@
 "origin" "-640 448 88"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_chaingun"
 "origin" "-1280 -64 312"
 }
 {
@@ -1870,7 +1871,7 @@
 "origin" "-512 2848 336"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_chaingun"
 "origin" "256 1088 312"
 }
 {
@@ -1929,7 +1930,7 @@
 "origin" "-1504 736 312"
 }
 {
-"classname" "weapon_shotgun"
+"classname" "weapon_prox_launcher"
 "origin" "-512 2144 120"
 }
 {
@@ -1949,6 +1950,7 @@
 {
 "classname" "item_health"
 "origin" "-1664 1984 128"
+"notta" "1"
 }
 {
 "classname" "item_health_large"
@@ -2008,7 +2010,7 @@
 "targetname" "t123"
 }
 {
-"classname" "ammo_grenades"
+"classname" "ammo_belt"
 "origin" "128 2432 128"
 }
 {
@@ -2032,7 +2034,7 @@
 "origin" "-1024 1184 544"
 }
 {
-"classname" "ammo_shells"
+"classname" "ammo_mines"
 "origin" "-1024 384 96"
 }
 {
@@ -2044,7 +2046,7 @@
 "origin" "-32 1376 576"
 }
 {
-"classname" "ammo_grenades"
+"classname" "ammo_belt"
 "origin" "-32 1312 576"
 }
 {
@@ -2315,4 +2317,52 @@
 "origin" "-1184 2784 120"
 "classname" "info_player_deathmatch"
 "targetname" "t269"
+}
+
+//Added by Kr3m
+
+{
+"classname" "item_guard"
+"origin" "-672 -1216 144"
+"spawnflags" "2"
+}
+{
+"classname" "item_doubler"
+"origin" "-352 -1216 144"
+"spawnflags" "2"
+}
+
+{
+"origin" "-1152 -64 560"
+"classname" "item_ammoregen"
+"spawnflags" "2"
+}
+
+{
+"classname" "item_scout"
+"origin" "640 -960 128"
+"spawnflags" "2"
+}
+
+{
+"origin" "-672 2240 144"
+"classname" "item_guard"
+"spawnflags" "4"
+}
+{
+"origin" "-352 2240 144"
+"classname" "item_doubler"
+"spawnflags" "4"
+}
+
+{
+"classname" "item_ammoregen"
+"origin" "128 1088 560"
+"spawnflags" "4"
+}
+
+{
+"classname" "item_scout"
+"origin" "-1664 1984 128"
+"spawnflags" "4"
 }

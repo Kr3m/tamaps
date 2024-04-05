@@ -77,7 +77,7 @@
 "origin" "0 992 544"
 }
 {
-"classname" "ammo_grenades"
+"classname" "ammo_belt"
 "origin" "-32 1312 576"
 }
 {
@@ -89,7 +89,7 @@
 "origin" "-1024 640 96"
 }
 {
-"classname" "ammo_shells"
+"classname" "ammo_mines"
 "origin" "-1024 384 96"
 }
 {
@@ -113,7 +113,7 @@
 "origin" "160 2784 128"
 }
 {
-"classname" "ammo_grenades"
+"classname" "ammo_belt"
 "origin" "128 2432 128"
 }
 {
@@ -277,7 +277,7 @@
 "model" "*1"
 }
 {
-"classname" "weapon_shotgun"
+"classname" "weapon_prox_launcher"
 "origin" "-512 2144 120"
 }
 {
@@ -337,7 +337,7 @@
 }
 {
 "origin" "256 1088 312"
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_chaingun"
 }
 {
 "classname" "item_health_mega"
@@ -6387,7 +6387,7 @@
 "classname" "item_health_mega"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_chaingun"
 "origin" "-1280 -64 312"
 }
 {
@@ -6446,7 +6446,7 @@
 }
 {
 "origin" "-512 -1120 120"
-"classname" "weapon_shotgun"
+"classname" "weapon_prox_launcher"
 }
 {
 "target" "t27"
@@ -6610,7 +6610,7 @@
 }
 {
 "origin" "-1152 -1408 128"
-"classname" "ammo_grenades"
+"classname" "ammo_belt"
 }
 {
 "origin" "-1184 -1760 128"
@@ -6634,7 +6634,7 @@
 }
 {
 "origin" "0 640 96"
-"classname" "ammo_shells"
+"classname" "ammo_mines"
 }
 {
 "origin" "0 384 96"
@@ -6646,7 +6646,7 @@
 }
 {
 "origin" "-992 -288 576"
-"classname" "ammo_grenades"
+"classname" "ammo_belt"
 }
 {
 "origin" "-1024 32 544"
@@ -7091,17 +7091,17 @@
 "notq3a" "1"
 "notq3ayescctf" "1"
 "origin" "192 2432 128"
-"classname" "ammo_grenades"
+"classname" "ammo_belt"
 }
 {
-"classname" "ammo_grenades"
+"classname" "ammo_belt"
 "origin" "64 2432 128"
 "notq3ayescctf" "1"
 "notq3a" "1"
 "notta" "1"
 }
 {
-"classname" "ammo_grenades"
+"classname" "ammo_belt"
 "origin" "-1088 -1408 128"
 "notq3ayescctf" "1"
 "notq3a" "1"
@@ -7112,7 +7112,7 @@
 "notq3a" "1"
 "notq3ayescctf" "1"
 "origin" "-1216 -1408 128"
-"classname" "ammo_grenades"
+"classname" "ammo_belt"
 }
 {
 "origin" "128 512 128"
@@ -7127,7 +7127,7 @@
 "origin" "-1152 512 128"
 }
 {
-"classname" "ammo_shells"
+"classname" "ammo_mines"
 "origin" "0 680 96"
 "notq3a" "1"
 "notta" "1"
@@ -7138,7 +7138,7 @@
 "notta" "1"
 "notq3a" "1"
 "origin" "-1024 344 96"
-"classname" "ammo_shells"
+"classname" "ammo_mines"
 }
 {
 "classname" "ammo_lightning"
@@ -7170,7 +7170,7 @@
 }
 {
 "origin" "-32 1264 576"
-"classname" "ammo_grenades"
+"classname" "ammo_belt"
 "notq3ayescctf" "1"
 "notq3a" "1"
 "notta" "1"
@@ -7179,6 +7179,20 @@
 "notta" "1"
 "notq3a" "1"
 "notq3ayescctf" "1"
-"classname" "ammo_grenades"
+"classname" "ammo_belt"
 "origin" "-992 -240 576"
+}
+
+//Added by Kr3m
+
+{
+"classname" "item_scout"
+"origin" "640 -960 128"
+"spawnflags" "2"
+}
+
+{
+"classname" "item_scout"
+"origin" "-1664 1984 128"
+"spawnflags" "4"
 }
