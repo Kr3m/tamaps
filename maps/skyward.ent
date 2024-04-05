@@ -1796,10 +1796,10 @@
 {
 "classname" "item_doubler"
 "spawnflags" "2"
-"origin" "1032 1188 -196"
+"origin" "1032 1193 -196"
 }
 {
-"origin" "632 1188 -196"
+"origin" "632 1193 -196"
 "spawnflags" "2"
 "classname" "item_ammoregen"
 }
@@ -1814,12 +1814,12 @@
 "spawnflags" "4"
 }
 {
-"origin" "632 -2660 -196"
+"origin" "632 -2665 -196"
 "spawnflags" "4"
 "classname" "item_doubler"
 }
 {
 "classname" "item_ammoregen"
 "spawnflags" "4"
-"origin" "1032 -2660 -196"
+"origin" "1032 -2665 -196"
 }
