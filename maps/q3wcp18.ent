@@ -300,6 +300,7 @@
 {
 "origin" "1568 1120 24"
 "classname" "item_health"
+"notta" "1"
 }
 {
 "classname" "item_health"
@@ -3995,6 +3996,7 @@
 {
 "classname" "item_health"
 "origin" "-672 352 24"
+"notta" "1"
 }
 {
 "classname" "trigger_push"
@@ -5680,4 +5682,17 @@
 "light" "3"
 "_color" "1.000000 0.811966 0.777778"
 "origin" "192 96 183"
+}
+
+//Added by Kr3m
+
+{
+"origin" "1568 1120 24"
+"classname" "item_scout"
+"spawnflags" "4"
+}
+{
+"origin" "-672 352 24"
+"classname" "item_scout"
+"spawnflags" "2"
 }

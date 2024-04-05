@@ -49,6 +49,7 @@
 {
 "origin" "2160 2048 216"
 "classname" "weapon_shotgun"
+"notta" "1"
 }
 {
 "origin" "448 736 280"
@@ -208,6 +209,7 @@
 {
 "origin" "1568 1120 24"
 "classname" "item_health"
+"notta" "1"
 }
 {
 "origin" "1728 448 352"
@@ -1038,6 +1040,7 @@
 {
 "origin" "-672 352 24"
 "classname" "item_health"
+"notta" "1"
 }
 {
 "model" "*6"
@@ -1183,6 +1186,7 @@
 {
 "origin" "-1264 -576 216"
 "classname" "weapon_shotgun"
+"notta" "1"
 }
 {
 "model" "*10"
@@ -1783,4 +1787,78 @@
 {
 "origin" "2048 2080 60"
 "classname" "ammo_pack"
+}
+
+//Added by Kr3m
+
+{
+"classname" "item_ammoregen"
+"spawnflags" "4"
+"origin" "1696 1824 32"
+}
+{
+"origin" "-800 -352 32"
+"spawnflags" "2"
+"classname" "item_ammoregen"
+}
+
+{
+"classname" "item_guard"
+"spawnflags" "4"
+"origin" "448 1216 96"
+}
+{
+"origin" "448 256 96"
+"spawnflags" "2"
+"classname" "item_guard"
+}
+
+{
+"classname" "item_doubler"
+"spawnflags" "4"
+"origin" "2784 1312 288"
+}
+{
+"origin" "-1888 160 288"
+"spawnflags" "2"
+"classname" "item_doubler"
+}
+
+{
+"origin" "1568 1120 24"
+"classname" "item_scout"
+"spawnflags" "4"
+}
+{
+"origin" "-672 352 24"
+"classname" "item_scout"
+"spawnflags" "2"
+}
+
+{
+"classname" "weapon_nailgun"
+"origin" "2160 2048 216"
+}
+{
+"origin" "-1264 -576 216"
+"classname" "weapon_nailgun"
+}
+
+{
+"classname" "ammo_nails"
+"origin" "2272 2144 212"
+}
+{
+"count" "75"
+"origin" "896 752 84"
+"classname" "ammo_nails"
+}
+{
+"count" "75"
+"classname" "ammo_nails"
+"origin" "0 720 84"
+}
+{
+"origin" "-1376 -672 212"
+"classname" "ammo_nails"
 }
