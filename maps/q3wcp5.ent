@@ -1940,6 +1940,7 @@
 "spawnflags" "0"
 "origin" "-296 -192 -296"
 "classname" "item_health"
+"notta" "1"
 }
 {
 "spawnflags" "0"
@@ -4318,6 +4319,7 @@
 "angle" "0"
 "classname" "item_health"
 "origin" "-296 2624 -296"
+"notta" "1"
 }
 {
 "angle" "0"
@@ -4615,4 +4617,17 @@
 "origin" "1644 552 88"
 "angle" "180"
 "classname" "info_player_deathmatch"
+}
+
+//Added by Kr3m
+
+{
+"spawnflags" "2"
+"classname" "item_ammoregen"
+"origin" "-296 2624 -296"
+}
+{
+"spawnflags" "4"
+"origin" "-296 -192 -296"
+"classname" "item_ammoregen"
 }

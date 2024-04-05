@@ -8,6 +8,7 @@
 {
 "classname" "item_armor_combat"
 "origin" "1568 -192 88"
+"notta" "1"
 }
 {
 "classname" "ammo_shells"
@@ -21,6 +22,7 @@
 "classname" "item_haste"
 "origin" "144 1208 33"
 "team" "pow"
+"notta" "1"
 }
 {
 "classname" "target_location"
@@ -207,6 +209,7 @@
 "spawnflags" "0"
 "origin" "-296 -192 -296"
 "classname" "item_health"
+"notta" "1"
 }
 {
 "spawnflags" "0"
@@ -689,6 +692,7 @@
 "angle" "0"
 "classname" "item_health"
 "origin" "-296 2624 -296"
+"notta" "1"
 }
 {
 "angle" "0"
@@ -846,6 +850,7 @@
 "origin" "144 1208 33"
 "classname" "item_regen"
 "team" "pow"
+"notta" "1"
 }
 {
 "origin" "528 1208 -399"
@@ -859,6 +864,7 @@
 {
 "origin" "1568 2608 88"
 "classname" "item_armor_combat"
+"notta" "1"
 }
 {
 "origin" "690 564 80"
@@ -943,4 +949,57 @@
 "classname" "func_static"
 "not_gametype" "6 8"
 "model" "*15"
+}
+
+//Added by Kr3m
+
+{
+"classname" "item_guard"
+"origin" "-608 2152 -40"
+"spawnflags" "2"
+}
+{
+"classname" "item_doubler"
+"origin" "-608 3064 -40"
+"spawnflags" "2"
+}
+{
+"classname" "item_scout"
+"origin" "1568 2608 88"
+"angle" "0"
+"spawnflags" "2"
+}
+
+{
+"angle" "2"
+"classname" "item_ammoregen"
+"origin" "-296 2624 -296"
+}
+
+{
+"spawnflags" "4"
+"origin" "-608 -648 -40"
+"classname" "item_guard"
+}
+{
+"spawnflags" "4"
+"origin" "-608 264 -40"
+"classname" "item_doubler"
+}
+{
+"classname" "item_scout"
+"origin" "1568 -192 88"
+"spawnflags" "4"
+}
+{
+"spawnflags" "4"
+"origin" "-296 -192 -296"
+"classname" "item_ammoregen"
+}
+
+{
+"angle" "0"
+"classname" "holdable_kamikaze"
+"origin" "144 1208 33"
+"team" "pow"
 }
