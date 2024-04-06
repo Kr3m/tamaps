@@ -267,6 +267,7 @@
 {
 "origin" "656 1776 208"
 "classname" "item_health_large"
+"notta" "1"
 }
 {
 "spawnflags" "0"
@@ -421,6 +422,7 @@
 {
 "classname" "item_health_large"
 "origin" "-16 -1184 208"
+"notta" "1"
 }
 {
 "spawnflags" "0"
@@ -1172,4 +1174,17 @@
 "classname" "team_CTF_neutralflag"
 "origin" "320 288 24"
 "angle" "0"
+}
+
+//Added by Kr3m
+
+{
+"origin" "656 1776 208"
+"classname" "item_doubler"
+"spawnflags" "2"
+}
+{
+"classname" "item_doubler"
+"origin" "-16 -1184 208"
+"spawnflags" "4"
 }

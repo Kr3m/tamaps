@@ -363,6 +363,7 @@
 {
 "origin" "656 1784 208"
 "classname" "item_health"
+"notta" "1"
 }
 {
 "origin" "-168 1752 209"
@@ -396,6 +397,7 @@
 {
 "origin" "-32 -1186 210"
 "classname" "item_health"
+"notta" "1"
 }
 {
 "classname" "item_armor_combat"
@@ -877,4 +879,27 @@
 {
 "classname" "ammo_pack"
 "origin" "192 1640 60"
+}
+
+//Added by Kr3m
+
+{
+"origin" "656 1784 208"
+"classname" "item_doubler"
+"spawnflags" "2"
+}
+{
+"origin" "-32 1784 208"
+"classname" "item_guard"
+"spawnflags" "2"
+}
+{
+"origin" "-32 -1186 210"
+"classname" "item_doubler"
+"spawnflags" "4"
+}
+{
+"origin" "656 -1186 210"
+"classname" "item_guard"
+"spawnflags" "4"
 }
