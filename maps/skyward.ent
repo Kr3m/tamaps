@@ -1796,13 +1796,15 @@
 {
 "classname" "item_doubler"
 "spawnflags" "2"
-"origin" "1032 1193 -196"
+"origin" "1028 1180 -196"
 }
 {
-"origin" "632 1193 -196"
+"origin" "636 1180 -196"
 "spawnflags" "2"
 "classname" "item_ammoregen"
 }
+
+
 {
 "origin" "448 -3904 80"
 "classname" "item_guard"
@@ -1814,12 +1816,12 @@
 "spawnflags" "4"
 }
 {
-"origin" "632 -2665 -196"
+"origin" "636 -2652 -196"
 "spawnflags" "4"
 "classname" "item_doubler"
 }
 {
-"classname" "item_ammoregen"
+"origin" "1028 -2652 -196"
 "spawnflags" "4"
-"origin" "1032 -2665 -196"
+"classname" "item_ammoregen"
 }
