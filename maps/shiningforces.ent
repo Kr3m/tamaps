@@ -972,6 +972,7 @@
 
 {
 "angle" "2"
+"spawnflags" "2"
 "classname" "item_ammoregen"
 "origin" "-296 2624 -296"
 }
