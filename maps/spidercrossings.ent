@@ -48,11 +48,13 @@
 "wait" "120"
 "team" "ssctf3_mid"
 "origin" "0 2 80"
+"notta" "1"
 }
 {
 "classname" "item_regen"
 "wait" "120"
 "origin" "0 -1952 -96"
+"notta" "1"
 }
 {
 "classname" "team_CTF_redplayer"
@@ -98,6 +100,7 @@
 {
 "classname" "ammo_grenades"
 "origin" "0 -1724 336"
+"notta" "1"
 }
 {
 "classname" "ammo_rockets"
@@ -137,6 +140,7 @@
 "origin" "0 2 80"
 "wait" "120"
 "team" "ssctf3_mid"
+"notta" "1"
 }
 {
 "classname" "item_health"
@@ -168,6 +172,7 @@
 "classname" "item_armor_body"
 "origin" "0 -1408 344"
 "wait" "60"
+"notta" "1"
 }
 {
 "classname" "weapon_railgun"
@@ -296,6 +301,7 @@
 {
 "classname" "item_health"
 "origin" "184 -1088 344"
+"notta" "1"
 }
 {
 "classname" "target_position"
@@ -614,6 +620,7 @@
 "classname" "item_regen"
 "wait" "120"
 "origin" "0 1952 -96"
+"notta" "1"
 }
 {
 "classname" "target_position"
@@ -944,6 +951,7 @@
 {
 "classname" "item_health"
 "origin" "-184 1088 344"
+"notta" "1"
 }
 {
 "classname" "ammo_rockets"
@@ -989,6 +997,7 @@
 {
 "classname" "ammo_grenades"
 "origin" "0 1724 336"
+"notta" "1"
 }
 {
 "classname" "ammo_rockets"
@@ -1053,6 +1062,7 @@
 "classname" "item_armor_body"
 "wait" "60"
 "origin" "0 1408 344"
+"notta" "1"
 }
 {
 "classname" "weapon_grenadelauncher"
@@ -1139,4 +1149,83 @@
 "cellId" "459"
 "classname" "func_static"
 "model" "*13"
+}
+
+//Added by Kr3m
+
+{
+"classname" "item_guard"
+"origin" "-448 -2368 176"
+"spawnflags" "2"
+}
+{
+"origin" "448 -2368 160"
+"classname" "item_ammoregen"
+"spawnflags" "2"
+}
+{
+"classname" "item_doubler"
+"origin" "0 -1724 336"
+"spawnflags" "2"
+}
+{
+"classname" "item_scout"
+"origin" "184 -1088 344"
+"spawnflags" "2"
+}
+{
+"origin" "448 2368 176"
+"classname" "item_guard"
+"spawnflags" "4"
+}
+{
+"classname" "item_ammoregen"
+"origin" "-448 2368 160"
+"spawnflags" "4"
+}
+{
+"classname" "item_doubler"
+"origin" "0 1724 336"
+"spawnflags" "4"
+}
+{
+"origin" "-184 1088 344"
+"classname" "item_scout"
+"spawnflags" "4"
+}
+{
+"classname" "weapon_chaingun"
+"origin" "0 -1952 -96"
+}
+{
+"classname" "weapon_chaingun"
+"origin" "0 1952 -96"
+}
+{
+"origin" "-224 -1440 32"
+"classname" "ammo_mines"
+}
+{
+"origin" "224 -1440 32"
+"classname" "ammo_belt"
+}
+{
+"classname" "ammo_mines"
+"origin" "224 1440 32"
+}
+{
+"classname" "ammo_belt"
+"origin" "-224 1440 32"
+}
+{
+"classname" "weapon_prox_launcher"
+"origin" "0 -1408 344"
+}
+{
+"classname" "weapon_prox_launcher"
+"origin" "0 1408 344"
+}
+{
+"classname" "holdable_kamikaze"
+"origin" "0 2 80"
 }

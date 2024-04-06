@@ -22,7 +22,7 @@
 }
 {
 "origin" "448 -2368 160"
-"classname" "item_guard"
+"classname" "item_ammoregen"
 "spawnflags" "2"
 }
 {
@@ -1264,7 +1264,9 @@
 {
 "classname" "item_health"
 "origin" "184 -1088 344"
+"notta" "1"
 }
+
 {
 "origin" "832 -256 480"
 "targetname" "t15"
@@ -2602,6 +2604,7 @@
 {
 "origin" "-184 1088 344"
 "classname" "item_health"
+"notta" "1"
 }
 {
 "classname" "target_position"
@@ -3887,7 +3890,7 @@
 "spawnflags" "2"
 }
 {
-"classname" "item_guard"
+"classname" "item_ammoregen"
 "origin" "-448 2368 160"
 "spawnflags" "4"
 }
@@ -4098,4 +4101,17 @@
 "origin" "64 -2944 152"
 "angle" "90"
 "classname" "team_CTF_redplayer"
+}
+
+//Added by Kr3m
+
+{
+"classname" "item_scout"
+"origin" "184 -1088 344"
+"spawnflags" "2"
+}
+{
+"origin" "-184 1088 344"
+"classname" "item_scout"
+"spawnflags" "4"
 }
