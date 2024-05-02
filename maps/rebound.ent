@@ -1107,6 +1107,7 @@
 "spawnflags" "1"
 "classname" "holdable_invulnerability"
 "origin" "192 0 -232"
+"gametype" "ctf obelisk"
 }
 {
 "classname" "weapon_prox_launcher"
