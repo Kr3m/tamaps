@@ -1819,3 +1819,19 @@
 "origin" "3104 -576 -336"
 "classname" "ammo_mines"
 }
+{
+"origin" "640 16 -112"
+"classname" "ammo_mines"
+}
+{
+"origin" "1736 -1336 80"
+"classname" "ammo_mines"
+}
+{
+"classname" "ammo_mines"
+"origin" "640 -1144 -112"
+}
+{
+"classname" "ammo_mines"
+"origin" "2616 184 80"
+}
