@@ -1815,3 +1815,7 @@
 "classname" "weapon_prox_launcher"
 "origin" "2176 -256 80"
 }
+{
+"origin" "3104 -576 -336"
+"classname" "ammo_mines"
+}
