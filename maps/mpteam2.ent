@@ -98,7 +98,6 @@
 "classname" "ammo_mines"
 }
 {
-"team" "prox1"
 "origin" "2176 -896 80"
 "classname" "weapon_prox_launcher"
 }
@@ -2922,7 +2921,6 @@
 "origin" "2272 -72 400"
 }
 {
-"team" "prox1"
 "classname" "weapon_prox_launcher"
 "origin" "2176 -256 80"
 }
