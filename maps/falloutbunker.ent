@@ -1789,3 +1789,11 @@
 "model" "models/mapobjects/spawn/spawn_r.md3"
 "classname" "misc_model"
 }
+{
+"origin" "2176 -896 80"
+"classname" "weapon_prox_launcher"
+}
+{
+"classname" "weapon_prox_launcher"
+"origin" "2176 -256 80"
+}
