@@ -167,6 +167,12 @@
 {
 "classname" "ammo_lightning"
 "origin" "2048 -656 -272"
+"notta" "1"
+}
+{
+"classname" "ammo_belt"
+"origin" "2048 -656 -272"
+"notq3a" "1"
 }
 {
 "classname" "item_health"
