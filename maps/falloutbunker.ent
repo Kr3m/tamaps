@@ -194,6 +194,12 @@
 {
 "classname" "weapon_lightning"
 "origin" "2176 -1680 16"
+"notta" "1"
+}
+{
+"classname" "weapon_chaingun"
+"origin" "2176 -1680 16"
+"notq3a" "1"
 }
 {
 "classname" "weapon_railgun"
@@ -314,6 +320,12 @@
 {
 "origin" "2176 520 16"
 "classname" "weapon_lightning"
+"notta" "1"
+}
+{
+"origin" "2176 520 16"
+"classname" "weapon_chaingun"
+"notq3a" "1"
 }
 {
 "origin" "1602 -574 -272"
