@@ -1231,6 +1231,12 @@
 {
 "classname" "ammo_lightning"
 "origin" "3152 -512 -336"
+"notta" "1"
+}
+{
+"classname" "ammo_belt"
+"origin" "3152 -512 -336"
+"notq3a" "1"
 }
 {
 "classname" "weapon_plasmagun"
