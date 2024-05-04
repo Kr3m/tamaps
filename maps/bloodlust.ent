@@ -1207,9 +1207,10 @@
 }
 {
 "classname" "team_CTF_neutralflag"
-"origin" "-488 256 40"
+"origin" "-488 256 24"
 "gametype" "oneflag"
 "notfree" "1"
+"angle" "270"
 }
 {
 "classname" "team_dom_point"
