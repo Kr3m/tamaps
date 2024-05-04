@@ -1201,7 +1201,7 @@
 }
 {
 "classname" "team_neutralobelisk"
-"origin" "-488 256 40"
+"origin" "-488 256 0"
 "notfree" "1"
 "gametype" "oneflag, harvester"
 }
