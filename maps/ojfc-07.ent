@@ -278,7 +278,7 @@
 }
 
 {
-"origin" "-50 60 220"
+"origin" "-50 56 220"
 "classname" "item_guard"
 "spawnflags" "2"
 }
