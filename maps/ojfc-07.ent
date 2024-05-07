@@ -288,3 +288,9 @@
 "classname" "item_doubler"
 "spawnflags" "2"
 }
+
+{
+"origin" "-584 -256 220"
+"classname" "item_ammoregen"
+"spawnflags" "2"
+}
