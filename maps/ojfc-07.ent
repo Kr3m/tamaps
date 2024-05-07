@@ -279,7 +279,7 @@
 
 {
 "origin" "3545 456 220"
-"classname" "item_ammoregen"
+"classname" "item_scout"
 "spawnflags" "4"
 }
 
@@ -303,7 +303,7 @@
 
 {
 "origin" "-153 456 220"
-"classname" "item_scout"
+"classname" "item_ammoregen"
 "spawnflags" "2"
 }
 
