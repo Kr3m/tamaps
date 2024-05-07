@@ -278,6 +278,30 @@
 }
 
 {
+"origin" "3545 456 220"
+"classname" "item_ammoregen"
+"spawnflags" "4"
+}
+
+{
+"origin" "3976 -256 220"
+"classname" "item_doubler"
+"spawnflags" "4"
+}
+
+{
+"origin" "3976 768 220"
+"classname" "item_guard"
+"spawnflags" "4"
+}
+
+{
+"origin" "3545 56 220"
+"classname" "item_scout"
+"spawnflags" "4"
+}
+
+{
 "origin" "-153 456 220"
 "classname" "item_ammoregen"
 "spawnflags" "2"
