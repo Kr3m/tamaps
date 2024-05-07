@@ -294,3 +294,9 @@
 "classname" "item_ammoregen"
 "spawnflags" "2"
 }
+
+{
+"origin" "-584 768 220"
+"classname" "item_scout"
+"spawnflags" "2"
+}
