@@ -282,3 +282,9 @@
 "classname" "item_guard"
 "spawnflags" "2"
 }
+
+{
+"origin" "-153 456 220"
+"classname" "item_doubler"
+"spawnflags" "2"
+}
