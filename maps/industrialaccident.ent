@@ -1701,3 +1701,47 @@
 "cellId" "358"
 "classname" "func_static"
 }
+
+//Added by Kr3m
+
+
+{
+"classname" "item_scout"
+"origin" "672 928 40"
+"spawnflags" "4"
+}
+{
+"classname" "item_guard"
+"origin" "-656 944 56"
+"spawnflags" "4"
+}
+{
+"classname" "item_doubler"
+"spawnflags" "4"
+"origin" "160 1888 360"
+}
+{
+"classname" "item_ammoregen"
+"spawnflags" "4"
+"origin" "-160 1888 360"
+}
+{
+"origin" "672 -2720 40"
+"classname" "item_scout"
+"spawnflags" "2"
+}
+{
+"origin" "-656 -2736 56"
+"classname" "item_guard"
+"spawnflags" "2"
+}
+{
+"origin" "160 -3680 360"
+"spawnflags" "2"
+"classname" "item_doubler"
+}
+{
+"origin" "-160 -3680 360"
+"spawnflags" "2"
+"classname" "item_ammoregen"
+}
