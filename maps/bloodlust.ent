@@ -56,6 +56,7 @@
 "classname" "item_quad"
 "origin" "-488 256 24"
 "not_gametype" "6 7 8"
+"gametype" "ctf obelisk"
 }
 {
 "classname" "weapon_lightning"
@@ -694,7 +695,7 @@
 {
 "classname" "team_blueobelisk"
 "origin" "-3824 -1448 332"
-"angle" "360"
+"angle" "90"
 }
 {
 "origin" "2120 1728 496"
@@ -1052,7 +1053,7 @@
 "gametype" "ctf oneflag"
 }
 {
-"angle" "180"
+"angle" "270"
 "origin" "2928 1960 332"
 "classname" "team_redobelisk"
 }
