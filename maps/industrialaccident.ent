@@ -74,6 +74,8 @@
 {
 "classname" "item_armor_body"
 "origin" "448 -896 208"
+"notta" "1"
+"not_gametype" "6, 7, 8"
 }
 {
 "classname" "item_quad"
@@ -1744,4 +1746,9 @@
 "origin" "-160 -3680 360"
 "spawnflags" "2"
 "classname" "item_ammoregen"
+}
+{
+"classname" "holdable_kamikaze"
+"origin" "448 -896 232"
+"not_gametype" "4"
 }
