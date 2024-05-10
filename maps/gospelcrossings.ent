@@ -11,6 +11,7 @@
 {
 "origin" "-480 2240 96"
 "classname" "ammo_shells"
+"notta" "1"
 }
 {
 "spawnflags" "0"
@@ -989,6 +990,7 @@
 "origin" "0 -1664 40"
 "spawnflags" "1"
 "classname" "weapon_rocketlauncher"
+"notta" "1"
 }
 {
 "origin" "416 -1664 -224"
@@ -1026,6 +1028,7 @@
 {
 "origin" "0 -1296 -280"
 "classname" "weapon_shotgun"
+"notta" "1"
 }
 {
 "origin" "-512 -1056 352"
@@ -1043,6 +1046,7 @@
 {
 "origin" "-224 -1664 -296"
 "classname" "ammo_lightning"
+"notta" "1"
 }
 {
 "origin" "160 -2208 -304"
@@ -1072,10 +1076,12 @@
 {
 "origin" "752 -992 96"
 "classname" "weapon_lightning"
+"notta" "1"
 }
 {
 "origin" "-800 -1088 96"
 "classname" "ammo_lightning"
+"notta" "1"
 }
 {
 "origin" "-928 -432 640"
@@ -1874,6 +1880,7 @@
 {
 "origin" "0 1296 -280"
 "classname" "weapon_shotgun"
+"notta" "1"
 }
 {
 "origin" "512 1056 352"
@@ -1891,6 +1898,7 @@
 {
 "origin" "224 1664 -296"
 "classname" "ammo_lightning"
+"notta" "1"
 }
 {
 "origin" "-160 2208 -304"
@@ -1920,10 +1928,12 @@
 {
 "origin" "-752 992 96"
 "classname" "weapon_lightning"
+"notta" "1"
 }
 {
 "origin" "800 1088 96"
 "classname" "ammo_lightning"
+"notta" "1"
 }
 {
 "targetname" "t95"
@@ -1963,6 +1973,12 @@
 "not_gametype" "1f har"
 "origin" "0 0 88"
 "classname" "item_quad"
+"notta" "1"
+}
+{
+"origin" "0 0 88"
+"classname" "holdable_kamikaze"
+"gametype" "ctf, obelisk"
 }
 {
 "origin" "992 1088 88"
@@ -2009,6 +2025,7 @@
 {
 "origin" "480 -2240 96"
 "classname" "ammo_shells"
+"notta" "1"
 }
 {
 "origin" "-800 -1024 96"
@@ -2385,4 +2402,97 @@
 {
 "classname" "weapon_hmg"
 "origin" "0 -1048 -64"
+}
+
+//Added by Kr3m
+
+{
+"origin" "-144 1440 -288"
+"spawnflags" "2"
+"classname" "item_ammoregen"
+}
+{
+"origin" "-110 1664 40"
+"spawnflags" "2"
+"classname" "item_doubler"
+}
+{
+"origin" "110 1664 40"
+"spawnflags" "2"
+"classname" "item_guard"
+}
+{
+"origin" "144 1440 -288"
+"spawnflags" "2"
+"classname" "item_scout"
+}
+{
+"origin" "144 -1440 -288"
+"spawnflags" "4"
+"classname" "item_ammoregen"
+}
+{
+"origin" "110 -1664 40"
+"spawnflags" "4"
+"classname" "item_doubler"
+}
+{
+"origin" "-110 -1664 40"
+"spawnflags" "4"
+"classname" "item_guard"
+}
+{
+"origin" "-144 -1440 -288"
+"spawnflags" "4"
+"classname" "item_scout"
+}
+{
+"origin" "-224 -1664 -296"
+"classname" "ammo_belt"
+"notq3a" "1"
+}
+{
+"origin" "752 -992 96"
+"classname" "weapon_chaingun"
+"notq3a" "1"
+}
+{
+"origin" "-800 -1088 96"
+"classname" "ammo_belt"
+"notq3a" "1"
+}
+{
+"origin" "224 1664 -296"
+"classname" "ammo_belt"
+"notq3a" "1"
+}
+{
+"origin" "-752 992 96"
+"classname" "weapon_chaingun"
+"notq3a" "1"
+}
+{
+"origin" "800 1088 96"
+"classname" "ammo_belt"
+"notq3a" "1"
+}
+{
+"origin" "0 -1296 -280"
+"classname" "weapon_prox_launcher"
+"notq3a" "1"
+}
+{
+"origin" "0 1296 -280"
+"classname" "weapon_prox_launcher"
+"notq3a" "1"
+}
+{
+"origin" "-480 2240 96"
+"classname" "ammo_mines"
+"notq3a" "1"
+}
+{
+"origin" "480 -2240 96"
+"classname" "ammo_mines"
+"notq3a" "1"
 }
