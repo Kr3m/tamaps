@@ -7,6 +7,7 @@
 "classname" "func_bobbing"
 "height" "64"
 "model" "*1"
+"gametype" "ctf, oneflag"
 }
 {
 "classname" "trigger_hurt"
@@ -29,11 +30,13 @@
 "classname" "func_bobbing"
 "height" "64"
 "model" "*4"
+"gametype" "ctf, oneflag"
 }
 {
 "classname" "team_CTF_blueflag"
 "origin" "256.000000 -5376.000000 80.000000"
 "angle" "180.000000"
+"gametype" "ctf, oneflag"
 }
 {
 "classname" "trigger_hurt"
@@ -111,6 +114,7 @@
 {
 "classname" "team_CTF_redflag"
 "origin" "256.000000 -128.000000 80.000000"
+"gametype" "ctf, oneflag"
 }
 {
 "classname" "team_CTF_redplayer"
@@ -151,4 +155,31 @@
 "classname" "team_CTF_redplayer"
 "origin" "-256.000000 -128.000000 48.000000"
 "angle" "-90.000000"
+}
+
+//Added by Kr3m
+
+{
+"classname" "team_CTF_neutralflag"
+"gametype" "oneflag"
+"origin" "256 -2752 -106"
+}
+{
+"classname" "team_neutralobelisk"
+"gametype" "oneflag, harvester"
+"origin" "256 -2752 -130"
+}
+
+{
+"classname" "team_redobelisk"
+"origin" "256 -128 -126"
+"angle" "270"
+"gametype" "harvester, obelisk"
+}
+
+{
+"classname" "team_blueobelisk"
+"origin" "256 -5376 -126"
+"angle" "90"
+"gametype" "harvester, obelisk"
 }
