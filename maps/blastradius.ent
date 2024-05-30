@@ -99,14 +99,16 @@
 "classname" "weapon_rocketlauncher"
 }
 {
-"origin" "-1024 0 16"
+"origin" "-1024 0 24"
 "classname" "team_CTF_redflag"
-"gametype" "ctf 1f"
+"gametype" "ctf, oneflag"
+"angle" "90"
 }
 {
-"origin" "0 -1024 16"
+"origin" "0 -1024 24"
 "classname" "team_CTF_blueflag"
-"gametype" "ctf 1f"
+"gametype" "ctf, oneflag"
+"angle" "180"
 }
 {
 "origin" "448 -832 -280"
@@ -1441,11 +1443,12 @@
 {
 "classname" "team_blueobelisk"
 "origin" "0 -1024 0"
-"angle" "90"
+"angle" "270"
 }
 {
 "classname" "team_redobelisk"
 "origin" "-1024 0 0"
+"angle" "180"
 }
 {
 "model" "*13"
@@ -2046,4 +2049,25 @@
 "angle" "90"
 "origin" "192 -1152 24"
 "classname" "info_player_deathmatch"
+}
+
+//Added by Kr3m
+
+{
+"origin" "160 160 -102"
+"classname" "team_CTF_neutralflag"
+"gametype" "oneflag"
+"angle" "45"
+}
+{
+"origin" "160 160 -126"
+"classname" "team_neutralobelisk"
+"gametype" "oneflag, harvester"
+"angle" "45"
+}
+{
+"origin" "160 160 -94"
+"classname" "holdable_kamikaze"
+"gametype" "ctf, obelisk"
+"angle" "45"
 }
