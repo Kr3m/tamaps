@@ -42,7 +42,7 @@
 {
 "classname" "team_redobelisk"
 "origin" "0 2696 316"
-"angle" "-90"
+"angle" "90"
 }
 {
 "classname" "weapon_nailgun"
@@ -122,6 +122,13 @@
 "classname" "item_quad"
 "origin" "0 0 32"
 "gametype" "ctf, obelisk"
+"notta" "1"
+}
+{
+"classname" "holdable_kamikaze"
+"origin" "0 0 32"
+"gametype" "ctf, obelisk"
+"notq3a" "1"
 }
 {
 "classname" "team_CTF_neutralflag"
@@ -131,6 +138,7 @@
 {
 "classname" "team_neutralobelisk"
 "origin" "0 0 16"
+"gametype" "oneflag, harvester"
 }
 {
 "classname" "item_health_mega"
@@ -1139,7 +1147,7 @@
 {
 "classname" "team_blueobelisk"
 "origin" "0 -2696 316"
-"angle" "90"
+"angle" "270"
 }
 {
 "classname" "team_CTF_bluespawn"
