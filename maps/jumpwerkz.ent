@@ -1356,7 +1356,7 @@
 }
 {
 "classname" "item_armor_shard"
-"origin" "-2.42338e-027 608 504"
+"origin" "0 608 504"
 "angle" "180"
 "spawnflags" "1"
 }
