@@ -293,6 +293,7 @@
 {
 "classname" "ammo_grenades"
 "origin" "-1944 176 296"
+"notta" "1"
 }
 {
 "classname" "weapon_grenadelauncher"
@@ -723,6 +724,7 @@
 {
 "classname" "ammo_grenades"
 "origin" "2048 -736 296"
+"notta" "1"
 }
 {
 "classname" "weapon_grenadelauncher"
