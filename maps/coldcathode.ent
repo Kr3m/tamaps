@@ -8,9 +8,10 @@
 "message" "Cold Cathode"
 }
 {
-"angle" "180.000000"
+"angle" "45"
 "origin" "348 -2184 112"
 "classname" "team_CTF_blueflag"
+"gametype" "ctf, oneflag"
 }
 {
 "angle" "180.000000"
@@ -67,6 +68,7 @@
 "team" "powerups"
 "origin" "0 0 312"
 "classname" "item_quad"
+"notta" "1"
 }
 {
 "angle" "90.000000"
@@ -139,6 +141,7 @@
 "team" "powerups"
 "origin" "0 0 280"
 "classname" "item_regen"
+"notta" "1"
 }
 {
 "origin" "244 224 192"
@@ -252,6 +255,8 @@
 {
 "origin" "-348 2184 112"
 "classname" "team_CTF_redflag"
+"gametype" "ctf, oneflag"
+"angle" "225"
 }
 {
 "origin" "276 1400 424"
@@ -488,12 +493,12 @@
 "classname" "item_health_mega"
 }
 {
-"angle" "-45.000008"
+"angle" "315"
 "origin" "-348 2184 -84"
 "classname" "team_redobelisk"
 }
 {
-"angle" "134.999985"
+"angle" "135"
 "origin" "348 -2184 -84"
 "classname" "team_blueobelisk"
 }
@@ -787,11 +792,12 @@
 "origin" "0 0 232"
 "gametype" "oneflag"
 "classname" "team_CTF_neutralflag"
+"angle" "270"
 }
 {
 "origin" "0 0 136"
 "gametype" "oneflag harvester"
-"angle" "270"
+"angle" "0"
 "classname" "team_neutralobelisk"
 }
 {
@@ -1105,4 +1111,12 @@
 "model" "*26"
 "not_gametype" "10"
 "classname" "func_static"
+}
+{
+"not_gametype" "6 8 10"
+"team" "powerups"
+"origin" "0 0 312"
+"classname" "holdable_kamikaze"
+"gametype" "ctf obelisk"
+"notq3a" "1"
 }
