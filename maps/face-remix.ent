@@ -24,6 +24,7 @@
 {
 "classname" "weapon_railgun"
 "origin" "1120 -2720 -3224"
+"notta" "1"
 }
 {
 "classname" "target_position"
@@ -64,8 +65,9 @@
 }
 {
 "classname" "team_CTF_blueflag"
-"origin" "-120 -2720 -3080"
-"angle" "90"
+"origin" "-120 -2720 -3104"
+"angle" "180"
+"gametype" "ctf, oneflag"
 }
 {
 "classname" "trigger_teleport"
@@ -95,6 +97,7 @@
 {
 "classname" "item_health_large"
 "origin" "-40 -1312 -3232"
+"notta" "1"
 }
 {
 "classname" "weapon_plasmagun"
@@ -122,6 +125,7 @@
 {
 "classname" "weapon_rocketlauncher"
 "origin" "-128 -1688 -3232"
+"notta" "1"
 }
 {
 "classname" "item_health"
@@ -181,6 +185,7 @@
 {
 "classname" "item_health_large"
 "origin" "-224 -1312 -3232"
+"notta" "1"
 }
 {
 "classname" "item_health_small"
@@ -391,6 +396,7 @@
 {
 "classname" "weapon_rocketlauncher"
 "origin" "-296 4472 -3232"
+"notta" "1"
 }
 {
 "classname" "weapon_shotgun"
@@ -528,10 +534,12 @@
 {
 "classname" "item_health_large"
 "origin" "-200 4080 -3240"
+"notta" "1"
 }
 {
 "classname" "item_health_large"
 "origin" "-392 4080 -3240"
+"notta" "1"
 }
 {
 "classname" "ammo_lightning"
@@ -547,8 +555,9 @@
 }
 {
 "classname" "team_CTF_redflag"
-"origin" "-296 5472 -3096"
-"angle" "270"
+"origin" "-296 5472 -3104"
+"angle" "360"
+"gametype" "ctf, oneflag"
 }
 {
 "classname" "item_health_large"
@@ -581,6 +590,7 @@
 {
 "classname" "weapon_railgun"
 "origin" "-1544 5504 -3232"
+"notta" "1"
 }
 {
 "classname" "item_armor_jacket"
@@ -744,6 +754,7 @@
 {
 "classname" "item_quad"
 "origin" "-264 1392 -3336"
+"notta" "1"
 }
 {
 "classname" "item_health_large"
@@ -756,10 +767,12 @@
 {
 "classname" "weapon_lightning"
 "origin" "1008 5232 -3224"
+"notta" "1"
 }
 {
 "classname" "weapon_lightning"
 "origin" "-1448 -2456 -3216"
+"notta" "1"
 }
 {
 "classname" "team_CTF_blueplayer"
@@ -988,4 +1001,179 @@
 "classname" "target_speaker"
 "noise" "sound/alliance/eerielow1.wav"
 "origin" "-296 4472 -3132"
+}
+
+//Added by Kr3m
+
+{
+"origin" "-264 1392 -3352"
+"classname" "team_CTF_neutralflag"
+"gametype" "oneflag"
+"angle" "270"
+}
+{
+"origin" "-264 1392 -3376"
+"classname" "team_neutralobelisk"
+"gametype" "oneflag, harvester"
+}
+{
+"angle" "270"
+"origin" "-120 -2720 -3128"
+"classname" "team_blueobelisk"
+}
+{
+"angle" "90"
+"origin" "-296 5472 -3128"
+"classname" "team_redobelisk"
+}
+{
+"origin" "-264 1392 -3336"
+"classname" "holdable_kamikaze"
+"notq3a" "1"
+"gametype" "obelisk"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/alliance/eerielow1.wav"
+"origin" "-808 -2176 -3132"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/alliance/eerielow1.wav"
+"origin" "384 4952 -3140"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/alliance/eerielow1.wav"
+"origin" "536 -2176 -3132"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/alliance/eerielow1.wav"
+"origin" "-968 4944 -3108"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/alliance/eerielow1.wav"
+"origin" "-264 1392 -3276"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/alliance/eerielow1.wav"
+"origin" "-120 -2720 -3028"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/alliance/eerielow1.wav"
+"origin" "-296 5472 -3028"
+}
+{
+"classname" "item_guard"
+"origin" "-200 4080 -3240"
+"notq3a" "1"
+"spawnflags" "2"
+}
+{
+"classname" "item_doubler"
+"origin" "-392 4080 -3240"
+"notq3a" "1"
+"spawnflags" "2"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/alliance/eerielow3.wav"
+"origin" "-200 4080 -3140"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/alliance/eerielow3.wav"
+"origin" "-392 4080 -3140"
+}
+{
+"classname" "item_doubler"
+"origin" "-40 -1312 -3232"
+"notq3a" "1"
+"spawnflags" "4"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/alliance/eerielow3.wav"
+"origin" "-40 -1312 -3132"
+}
+{
+"classname" "item_guard"
+"origin" "-224 -1312 -3232"
+"notq3a" "1"
+"spawnflags" "4"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/alliance/eerielow3.wav"
+"origin" "-224 -1312 -3132"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/alliance/wind2.wav"
+"origin" "-296 4800 80"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/alliance/wind2.wav"
+"origin" "-128 -2024 96"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/alliance/wind2.wav"
+"origin" "-124 -1668 -1588"
+}
+{
+"spawnflags" "1"
+"classname" "target_speaker"
+"noise" "sound/alliance/wind2.wav"
+"origin" "-296 4432 -1604"
+}
+{
+"classname" "weapon_chaingun"
+"origin" "-128 -1688 -3232"
+"notq3a" "1"
+}
+{
+"classname" "weapon_prox_launcher"
+"origin" "-1544 5504 -3232"
+"notq3a" "1"
+}
+{
+"classname" "weapon_chaingun"
+"origin" "-296 4472 -3232"
+"notq3a" "1"
+}
+{
+"classname" "weapon_nailgun"
+"origin" "1008 5232 -3224"
+"notq3a" "1"
+}
+
+{
+"classname" "weapon_prox_launcher"
+"origin" "1120 -2720 -3224"
+"notq3a" "1"
+}
+{
+"classname" "weapon_nailgun"
+"origin" "-1448 -2456 -3216"
+"notq3a" "1"
 }
