@@ -338,10 +338,12 @@
 {
 "classname" "item_health"
 "origin" "1968 -1832 -16"
+"notta" "1"
 }
 {
 "classname" "item_health"
 "origin" "1968 -1488 -8"
+"notta" "1"
 }
 {
 "classname" "item_armor_body"
@@ -708,10 +710,12 @@
 {
 "classname" "item_health"
 "origin" "-2032 1768 -16"
+"notta" "1"
 }
 {
 "classname" "item_health"
 "origin" "-2032 1424 -8"
+"notta" "1"
 }
 {
 "classname" "item_armor_body"
@@ -1756,4 +1760,60 @@
 {
 "classname" "ammo_shells"
 "origin" "-660 -2224 -40"
+}
+
+//Added by Kr3m
+
+{
+"classname" "team_CTF_neutralflag"
+"origin" "-32 -32 120"
+"gametype" "oneflag"
+"angle" "360"
+}
+{
+"classname" "team_neutralobelisk"
+"origin" "-32 -32 96"
+"gametype" "oneflag, harvester"
+"angle" "90"
+}
+{
+"classname" "item_doubler"
+"origin" "-2032 1768 -16"
+"spawnflags" "2"
+}
+{
+"classname" "item_guard"
+"origin" "-2032 1424 -8"
+"spawnflags" "2"
+}
+{
+"classname" "item_ammoregen"
+"origin" "-975 1448 16"
+"spawnflags" "2"
+}
+{
+"classname" "item_scout"
+"origin" "-975 1752 16"
+"spawnflags" "2"
+}
+
+{
+"classname" "item_guard"
+"origin" "1968 -1488 -8"
+"spawnflags" "4"
+}
+{
+"classname" "item_doubler"
+"origin" "1968 -1832 -16"
+"spawnflags" "4"
+}
+{
+"classname" "item_ammoregen"
+"origin" "911 -1512 16"
+"spawnflags" "4"
+}
+{
+"classname" "item_scout"
+"origin" "911 -1816 16"
+"spawnflags" "4"
 }
