@@ -696,7 +696,7 @@
 }
 {
 "classname" "team_CTF_redflag"
-"gametype" "ctf"
+"gametype" "ctf, oneflag"
 "origin" "-56 -5704 364"
 }
 {
@@ -860,6 +860,7 @@
 {
 "classname" "team_CTF_blueflag"
 "origin" "1696 904 364"
+"gametype" "ctf, oneflag"
 }
 {
 "classname" "target_position"
@@ -1249,4 +1250,73 @@
 "targetname" "t60"
 "origin" "264 -4460 88"
 "classname" "misc_teleporter_dest"
+}
+
+//Added by Kr3m
+
+{
+"classname" "team_CTF_neutralflag"
+"origin" "820 -2400 178"
+"gametype" "oneflag"
+"angle" "270"
+}
+{
+"classname" "team_neutralobelisk"
+"origin" "820 -2400 154"
+"gametype" "oneflag, harvester"
+}
+{
+"classname" "holdable_kamikaze"
+"origin" "820 -2400 178"
+"gametype" "ctf, obelisk"
+}
+{
+"classname" "team_redobelisk"
+"origin" "-56 -5704 350"
+"angle" "90"
+}
+{
+"classname" "team_blueobelisk"
+"origin" "1696 904 350"
+"angle" "270"
+}
+{
+"classname" "item_guard"
+"origin" "244 -5604 364"
+"spawnflags" "2"
+}
+{
+"classname" "item_doubler"
+"origin" "94 -5604 364"
+"spawnflags" "2"
+}
+{
+"classname" "item_ammoregen"
+"origin" "-206 -5604 364"
+"spawnflags" "2"
+}
+{
+"classname" "item_scout"
+"origin" "-356 -5604 364"
+"spawnflags" "2"
+}
+{
+"classname" "item_guard"
+"origin" "1396 804 364"
+"spawnflags" "4"
+}
+{
+"classname" "item_doubler"
+"origin" "1546 804 364"
+"spawnflags" "4"
+}
+{
+"classname" "item_ammoregen"
+"origin" "1846 804 364"
+"spawnflags" "4"
+}
+{
+"classname" "item_scout"
+"origin" "1996 804 364"
+"spawnflags" "4"
 }
