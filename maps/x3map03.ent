@@ -29,7 +29,7 @@
 "angle" "0"
 }
 {
-"gametype" "ctf , oneflag"
+"gametype" "ctf, oneflag"
 "angle" "225"
 "origin" "-1600 3192 -3534"
 "classname" "team_CTF_redflag"
@@ -75,7 +75,7 @@
 "angle" "315"
 "origin" "-1600 -2760 -3534"
 "classname" "team_CTF_blueflag"
-"gametype" "ctf , oneflag"
+"gametype" "ctf, oneflag"
 }
 {
 "classname" "item_armor_combat"
