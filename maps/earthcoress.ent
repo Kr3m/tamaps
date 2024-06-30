@@ -1544,3 +1544,39 @@
 "origin" "-1276 216 -3120"
 "classname" "item_armor_shard"
 }
+
+//Added by Kr3m
+
+{
+"classname" "item_guard"
+"origin" "-1700 3092 -3534"
+}
+{
+"classname" "item_doubler"
+"origin" "-1550 3092 -3534"
+}
+{
+"classname" "item_ammoregen"
+"origin" "-1700 2892 -3534"
+}
+{
+"classname" "item_scout"
+"origin" "-1550 2892 -3534"
+}
+
+{
+"classname" "item_guard"
+"origin" "-1550 -2660 -3534"
+}
+{
+"classname" "item_doubler"
+"origin" "-1700 -2660 -3534"
+}
+{
+"classname" "item_ammoregen"
+"origin" "-1550 -2460 -3534"
+}
+{
+"classname" "item_scout"
+"origin" "-1700 -2460 -3534"
+}
