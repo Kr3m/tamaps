@@ -3432,3 +3432,29 @@
 "origin" "200 -2488 402"
 "spawnflags" "4"
 }
+
+{
+"classname" "item_guard"
+"origin" "-200 2920 402"
+"spawnflags" "2"
+}
+{
+"classname" "item_doubler"
+"origin" "200 2920 402"
+"spawnflags" "2"
+}
+{
+"classname" "item_scout"
+"origin" "200 2520 402"
+"spawnflags" "2"
+}
+{
+"classname" "item_ammoregen"
+"origin" "-200 2520 402"
+"spawnflags" "2"
+}
+{
+"classname" "holdable_kamikaze"
+"gametype" "ctf, obelisk"
+"origin" "0 0 24"
+}
