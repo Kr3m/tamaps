@@ -835,8 +835,9 @@
 }
 {
 "classname" "team_CTF_redflag"
-"origin" "3584 1952 80"
-"gametype" "ctf"
+"origin" "3584 1952 88"
+"gametype" "ctf, oneflag"
+"angle" "135"
 }
 {
 "origin" "-16 64 152"
@@ -845,8 +846,9 @@
 }
 {
 "classname" "team_CTF_blueflag"
-"origin" "-3616 -1952 80"
-"gametype" "ctf"
+"origin" "-3616 -1952 88"
+"gametype" "ctf, oneflag"
+"angle" "315"
 }
 {
 "model" "*22"
@@ -1806,4 +1808,77 @@
 "classname" "target_speaker"
 "origin" "1376 416 96"
 "noise" "/sound/world/tim_pulse2.wav"
+}
+
+//Added by Kr3m
+
+{
+"classname" "team_CTF_neutralflag"
+"origin" "-16 0 -415"
+"gametype" "oneflag"
+}
+{
+"classname" "team_neutralobelisk"
+"origin" "-16 0 -439"
+"gametype" "oneflag, harvester"
+"angle" "90"
+}
+{
+"classname" "team_redobelisk"
+"origin" "3584 1952 64"
+"angle" "225"
+}
+{
+"classname" "team_blueobelisk"
+"origin" "-3616 -1952 64"
+"angle" "45"
+}
+{
+"classname" "item_quad"
+"origin" "-16 0 -415"
+"gametype" "ctf"
+}
+{
+"classname" "holdable_kamikaze"
+"origin" "-16 0 -415"
+"gametype" "obelisk"
+}
+{
+"classname" "holdable_kamikaze"
+"origin" "-16 0 158"
+"gametype" "oneflag"
+}
+
+{
+"classname" "item_guard"
+"origin" "3584 1852 88"
+}
+{
+"classname" "item_doubler"
+"origin" "3484 1952 88"
+}
+{
+"classname" "item_ammoregen"
+"origin" "3484 2102 88"
+}
+{
+"classname" "item_scout"
+"origin" "3734 1852 88"
+}
+
+{
+"classname" "item_guard"
+"origin" "-3616 -1852 88"
+}
+{
+"classname" "item_doubler"
+"origin" "-3516 -1952 88"
+}
+{
+"classname" "item_ammoregen"
+"origin" "-3516 -2102 88"
+}
+{
+"classname" "item_scout"
+"origin" "-3766 -1852 88"
 }
