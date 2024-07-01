@@ -1852,33 +1852,41 @@
 {
 "classname" "item_guard"
 "origin" "3584 1852 88"
+"spawnflags" "2"
 }
 {
 "classname" "item_doubler"
 "origin" "3484 1952 88"
+"spawnflags" "2"
 }
 {
 "classname" "item_ammoregen"
 "origin" "3484 2102 88"
+"spawnflags" "2"
 }
 {
 "classname" "item_scout"
 "origin" "3734 1852 88"
+"spawnflags" "2"
 }
 
 {
 "classname" "item_guard"
 "origin" "-3616 -1852 88"
+"spawnflags" "4"
 }
 {
 "classname" "item_doubler"
 "origin" "-3516 -1952 88"
+"spawnflags" "4"
 }
 {
 "classname" "item_ammoregen"
 "origin" "-3516 -2102 88"
+"spawnflags" "4"
 }
 {
 "classname" "item_scout"
 "origin" "-3766 -1852 88"
+"spawnflags" "4"
 }
