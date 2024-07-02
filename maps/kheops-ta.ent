@@ -354,7 +354,7 @@
 "classname" "trigger_hurt"
 "dmg" "999"
 "wf_team" "2"
-"gametype" "0"
+"gametype" "ctf"
 }
 {
 "classname" "item_pack"
@@ -913,7 +913,7 @@
 "classname" "trigger_hurt"
 "dmg" "999"
 "wf_team" "1"
-"gametype" "0"
+"gametype" "ctf"
 }
 {
 "origin" "32 -3840 304"
@@ -1259,7 +1259,7 @@
 }
 {
 "gametype" "ctf"
-"classname" "team_neutralobelisk"
+"classname" "item_enviro"
 "origin" "0 -416 -300"
 }
 {
