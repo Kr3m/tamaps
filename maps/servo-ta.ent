@@ -14,8 +14,8 @@
 "classname" "info_player_deathmatch"
 }
 {
-"angle" "90"
-"origin" "-3240 40 80"
+"angle" "180"
+"origin" "-3240 40 88"
 "classname" "team_CTF_redflag"
 }
 {
@@ -1233,8 +1233,8 @@
 "classname" "info_player_deathmatch"
 }
 {
-"angle" "-90"
-"origin" "3240 -40 80"
+"angle" "0"
+"origin" "3240 -40 88"
 "classname" "team_CTF_blueflag"
 }
 {
@@ -2418,4 +2418,82 @@
 "spawnflags" "4"
 "speed" "750"
 "classname" "func_rotating"
+}
+
+//Added by Kr3m
+
+{
+"angle" "-90"
+"origin" "0 0 24"
+"classname" "team_CTF_neutralflag"
+"gametype" "oneflag"
+}
+{
+"angle" "315"
+"origin" "0 0 0"
+"classname" "team_neutralobelisk"
+"gametype" "oneflag, harvester"
+}
+
+{
+"angle" "270"
+"origin" "-3240 40 64"
+"classname" "team_redobelisk"
+}
+{
+"angle" "90"
+"origin" "3240 -40 64"
+"classname" "team_blueobelisk"
+}
+
+{
+"origin" "-3440 -260 88"
+"classname" "item_guard"
+"spawnflags" "2"
+}
+{
+"origin" "-3040 -260 88"
+"classname" "item_doubler"
+"spawnflags" "2"
+}
+{
+"origin" "-3040 -60 88"
+"classname" "item_ammoregen"
+"spawnflags" "2"
+}
+{
+"origin" "-3440 -60 88"
+"classname" "item_scout"
+"spawnflags" "2"
+}
+
+{
+"origin" "3440 260 88"
+"classname" "item_guard"
+"spawnflags" "4"
+}
+{
+"origin" "3040 260 88"
+"classname" "item_doubler"
+"spawnflags" "4"
+}
+{
+"origin" "3040 60 88"
+"classname" "item_ammoregen"
+"spawnflags" "4"
+}
+{
+"origin" "3440 60 88"
+"classname" "item_scout"
+"spawnflags" "4"
+}
+{
+"origin" "0 0 24"
+"classname" "item_quad"
+"gametype" "ctf"
+}
+{
+"origin" "0 0 24"
+"classname" "holdable_kamikaze"
+"gametype" "obelisk"
 }
