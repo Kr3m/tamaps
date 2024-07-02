@@ -97,8 +97,9 @@
 "classname" "misc_teleporter_dest"
 }
 {
-"origin" "4472 -400 216"
+"origin" "4480 -400 184"
 "classname" "team_CTF_blueflag"
+"gametype" "ctf, oneflag"
 }
 {
 "origin" "4475 -397 176"
@@ -205,8 +206,10 @@
 }
 {
 "classname" "team_CTF_redflag"
-"origin" "-4480 400 208"
+"origin" "-4480 400 184"
 "spawnflags" "0"
+"gametype" "ctf, oneflag"
+"angle" "180"
 }
 {
 "classname" "item_flagreturn_team1"
@@ -4596,4 +4599,71 @@
 "noise" "sound/world/waterloud2.wav"
 "spawnflags" "1"
 "classname" "target_speaker"
+}
+
+//Added by Kr3m
+
+{
+"classname" "item_quad"
+"origin" "0 0 -246"
+"gametype" "ctf"
+}
+{
+"classname" "holdable_kamikaze"
+"origin" "0 0 -246"
+"gametype" "obelisk"
+}
+{
+"classname" "team_CTF_neutralflag"
+"origin" "0 0 -246"
+"gametype" "oneflag"
+}
+{
+"classname" "team_neutralobelisk"
+"origin" "0 0 -270"
+"gametype" "oneflag, harvester"
+"angle" "90"
+}
+{
+"classname" "team_redobelisk"
+"origin" "-4480 400 160"
+"angle" "270"
+}
+{
+"origin" "4480 -400 160"
+"classname" "team_blueobelisk"
+"angle" "90"
+}
+
+{
+"classname" "item_guard"
+"origin" "-4480 64 16"
+}
+{
+"classname" "item_scout"
+"origin" "-4480 -736 16"
+}
+{
+"classname" "item_doubler"
+"origin" "-4862 450 184"
+}
+{
+"classname" "item_ammoregen"
+"origin" "-4098 450 184"
+}
+{
+"classname" "item_guard"
+"origin" "4480 -64 16"
+}
+{
+"classname" "item_scout"
+"origin" "4480 736 16"
+}
+{
+"classname" "item_doubler"
+"origin" "4862 -450 184"
+}
+{
+"classname" "item_ammoregen"
+"origin" "4098 -450 184"
 }
