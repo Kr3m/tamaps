@@ -16,6 +16,8 @@
 {
 "origin" "-416 -1312 280"
 "classname" "team_CTF_blueflag"
+"gametype" "ctf, oneflag"
+"angle" "225"
 }
 {
 "classname" "weapon_shotgun"
@@ -32,6 +34,7 @@
 {
 "classname" "weapon_grenadelauncher"
 "origin" "448 -960 204"
+"notta" "1"
 }
 {
 "classname" "weapon_rocketlauncher"
@@ -60,10 +63,12 @@
 {
 "classname" "ammo_bullets"
 "origin" "384 96 16"
+"notta" "1"
 }
 {
 "classname" "ammo_grenades"
 "origin" "88 -416 96"
+"notta" "1"
 }
 {
 "classname" "ammo_lightning"
@@ -84,6 +89,7 @@
 {
 "origin" "-368 -1832 280"
 "classname" "ammo_grenades"
+"notta" "1"
 }
 {
 "origin" "808 -608 152"
@@ -307,6 +313,7 @@
 {
 "classname" "item_health_mega"
 "origin" "360 0 16"
+"notta" "1"
 }
 {
 "classname" "target_speaker"
@@ -317,6 +324,7 @@
 {
 "origin" "384 -96 16"
 "classname" "ammo_bullets"
+"notta" "1"
 }
 {
 "classname" "target_location"
@@ -537,6 +545,7 @@
 {
 "origin" "448 960 204"
 "classname" "weapon_grenadelauncher"
+"notta" "1"
 }
 {
 "origin" "304 608 80"
@@ -565,6 +574,7 @@
 {
 "origin" "88 416 96"
 "classname" "ammo_grenades"
+"notta" "1"
 }
 {
 "origin" "48 400 96"
@@ -585,6 +595,7 @@
 {
 "classname" "ammo_grenades"
 "origin" "-368 1832 280"
+"notta" "1"
 }
 {
 "classname" "ammo_lightning"
@@ -871,6 +882,8 @@
 {
 "classname" "team_CTF_redflag"
 "origin" "-416 1312 280"
+"gametype" "ctf, oneflag"
+"angle" "315"
 }
 {
 "classname" "target_give"
@@ -1024,4 +1037,108 @@
 {
 "origin" "600 272 80"
 "classname" "item_armor_shard"
+}
+
+//Added by Kr3m
+
+{
+"classname" "team_CTF_neutralflag"
+"origin" "360 0 24"
+"gametype" "oneflag"
+"angle" "270"
+}
+{
+"classname" "team_neutralobelisk"
+"origin" "360 0 0"
+"gametype" "oneflag, harvester"
+}
+{
+"classname" "team_redobelisk"
+"origin" "-416 1312 256"
+"angle" "45"
+}
+{
+"origin" "-416 -1312 256"
+"classname" "team_blueobelisk"
+"angle" "315"
+}
+{
+"classname" "item_guard"
+"origin" "-316 1312 280"
+"spawnflags" "2"
+}
+{
+"classname" "item_doubler"
+"origin" "-416 1412 280"
+"spawnflags" "2"
+}
+{
+"classname" "item_ammoregen"
+"origin" "-416 1212 280"
+"spawnflags" "2"
+}
+{
+"classname" "item_scout"
+"origin" "-516 1312 280"
+"spawnflags" "2"
+}
+{
+"classname" "item_guard"
+"origin" "-416 -1412 280"
+"spawnflags" "4"
+}
+{
+"classname" "item_doubler"
+"origin" "-316 -1312 280"
+"spawnflags" "4"
+}
+{
+"classname" "item_ammoregen"
+"origin" "-516 -1312 280"
+"spawnflags" "4"
+}
+{
+"classname" "item_scout"
+"origin" "-416 -1212 280"
+"spawnflags" "4"
+}
+{
+"classname" "weapon_prox_launcher"
+"origin" "448 -960 204"
+"notq3a" "1"
+}
+{
+"origin" "448 960 204"
+"classname" "weapon_prox_launcher"
+"notq3a" "1"
+}
+{
+"classname" "ammo_mines"
+"origin" "88 -416 96"
+"notq3a" "1"
+}
+{
+"origin" "-368 -1832 280"
+"classname" "ammo_mines"
+"notq3a" "1"
+}
+{
+"origin" "88 416 96"
+"classname" "ammo_mines"
+"notq3a" "1"
+}
+{
+"classname" "ammo_mines"
+"origin" "-368 1832 280"
+"notq3a" "1"
+}
+{
+"classname" "holdable_kamikaze"
+"origin" "384 96 16"
+"notq3a" "1"
+}
+{
+"origin" "384 -96 16"
+"classname" "holdable_kamikaze"
+"notq3a" "1"
 }
