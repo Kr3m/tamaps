@@ -808,34 +808,42 @@
 {
 "origin" "-1624 -488 24"
 "classname" "item_guard"
+"spawnflags" "2"
 }
 {
 "origin" "-1624 -88 24"
 "classname" "item_doubler"
+"spawnflags" "2"
 }
 {
 "origin" "-1924 -488 24"
 "classname" "item_ammoregen"
+"spawnflags" "2"
 }
 {
 "origin" "-1924 -88 24"
 "classname" "item_scout"
+"spawnflags" "2"
 }
 {
 "classname" "item_guard"
 "origin" "3796 40 24"
+"spawnflags" "4"
 }
 {
 "classname" "item_doubler"
 "origin" "3796 -360 24"
+"spawnflags" "4"
 }
 {
 "classname" "item_ammoregen"
 "origin" "4096 40 24"
+"spawnflags" "4"
 }
 {
 "classname" "item_scout"
 "origin" "4096 -360 24"
+"spawnflags" "4"
 }
 {
 "gametype" "ctf"
