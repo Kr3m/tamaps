@@ -671,12 +671,12 @@
 {
 "model" "*15"
 "wf_team" "1"
-"dmg" "20"
+//"dmg" "20"
 "classname" "trigger_hurt"
 }
 {
 "model" "*16"
-"dmg" "20"
+//"dmg" "20"
 "wf_team" "1"
 "classname" "trigger_hurt"
 }
@@ -684,12 +684,12 @@
 "model" "*17"
 "classname" "trigger_hurt"
 "wf_team" "2"
-"dmg" "20"
+//"dmg" "20"
 }
 {
 "model" "*18"
 "classname" "trigger_hurt"
-"dmg" "20"
+//"dmg" "20"
 "wf_team" "2"
 }
 {
@@ -1646,14 +1646,15 @@
 "classname" "target_location"
 }
 {
-"origin" "256 3392 48"
+"origin" "256 3392 58"
 "classname" "team_CTF_blueflag"
-"gametype" "ctf"
+"gametype" "ctf, oneflag"
+"angle" "225"
 }
 {
-"origin" "5632 -1984 48"
+"origin" "5632 -1984 58"
 "classname" "team_CTF_redflag"
-"gametype" "ctf"
+"gametype" "ctf, oneflag"
 }
 {
 "classname" "item_armor_body"
@@ -1684,4 +1685,71 @@
 "spawnflags" "2"
 "origin" "5984 2080 32"
 "classname" "info_flare"
+}
+
+//Added by Kr3m
+
+{
+"origin" "2944 705 -284"
+"classname" "team_CTF_neutralflag"
+"gametype" "oneflag"
+"angle" "315"
+}
+{
+"origin" "2944 705 -308"
+"classname" "team_neutralobelisk"
+"gametype" "oneflag, harvester"
+"angle" "45"
+}
+{
+"origin" "5632 -1984 34"
+"classname" "team_redobelisk"
+"angle" "135"
+}
+{
+"origin" "256 3392 34"
+"classname" "team_blueobelisk"
+"angle" "315"
+}
+
+{
+"origin" "5782 -1834 58"
+"classname" "item_guard"
+"spawnflags" "2"
+}
+{
+"origin" "5782 -2134 58"
+"classname" "item_ammoregen"
+"spawnflags" "2"
+}
+{
+"origin" "5482 -2134 58"
+"classname" "item_doubler"
+"spawnflags" "2"
+}
+{
+"origin" "5282 -1634 -44"
+"classname" "item_scout"
+"spawnflags" "2"
+}
+
+{
+"origin" "106 3242 58"
+"classname" "item_guard"
+"spawnflags" "4"
+}
+{
+"origin" "106 3542 58"
+"classname" "item_ammoregen"
+"spawnflags" "4"
+}
+{
+"origin" "406 3542 58"
+"classname" "item_doubler"
+"spawnflags" "4"
+}
+{
+"origin" "606 3042 -44"
+"classname" "item_scout"
+"spawnflags" "4"
 }
