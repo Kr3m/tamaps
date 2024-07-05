@@ -116,6 +116,12 @@
 {
 "origin" "280 -2400 -3432"
 "classname" "ammo_grenades"
+"notta" "1"
+}
+{
+"origin" "280 -2400 -3432"
+"classname" "ammo_mines"
+"notq3a" "1"
 }
 {
 "classname" "item_health_small"
@@ -1181,18 +1187,42 @@
 {
 "classname" "weapon_grenadelauncher"
 "origin" "-608 -824 -3672"
+"notta" "1"
+}
+{
+"classname" "weapon_prox_launcher"
+"origin" "-608 -824 -3672"
+"notq3a" "1"
 }
 {
 "classname" "ammo_grenades"
 "origin" "-1016 -808 -3672"
+"notta" "1"
+}
+{
+"classname" "ammo_mines"
+"origin" "-1016 -808 -3672"
+"notq3a" "1"
 }
 {
 "origin" "-616 1224 -3672"
 "classname" "ammo_grenades"
+"notta" "1"
+}
+{
+"origin" "-616 1224 -3672"
+"classname" "ammo_mines"
+"notq3a" "1"
 }
 {
 "origin" "-1024 1240 -3672"
 "classname" "weapon_grenadelauncher"
+"notta" "1"
+}
+{
+"origin" "-1024 1240 -3672"
+"classname" "weapon_prox_launcher"
+"notq3a" "1"
 }
 {
 "origin" "-1096 864 -3376"
@@ -1323,6 +1353,12 @@
 {
 "classname" "ammo_grenades"
 "origin" "296 2848 -3424"
+"notta" "1"
+}
+{
+"classname" "ammo_mines"
+"origin" "296 2848 -3424"
+"notq3a" "1"
 }
 {
 "classname" "ammo_cells"
@@ -1549,19 +1585,19 @@
 
 {
 "classname" "item_guard"
-"origin" "-1700 3092 -3534"
-}
-{
-"classname" "item_doubler"
 "origin" "-1550 3092 -3534"
 }
 {
+"classname" "item_doubler"
+"origin" "-1700 3092 -3534"
+}
+{
 "classname" "item_ammoregen"
-"origin" "-1700 2892 -3534"
+"origin" "-1550 3292 -3534"
 }
 {
 "classname" "item_scout"
-"origin" "-1550 2892 -3534"
+"origin" "-1700 3292 -3534"
 }
 
 {
@@ -1574,9 +1610,9 @@
 }
 {
 "classname" "item_ammoregen"
-"origin" "-1550 -2460 -3534"
+"origin" "-1550 -2860 -3534"
 }
 {
 "classname" "item_scout"
-"origin" "-1700 -2460 -3534"
+"origin" "-1700 -2860 -3534"
 }
