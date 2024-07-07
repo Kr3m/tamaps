@@ -13,6 +13,7 @@
 {
 "classname" "team_blueobelisk"
 "origin" "-256 0 64"
+"angle" "45"
 }
 {
 "origin" "64 320 -32"
@@ -310,9 +311,10 @@
 "targetname" "midjump2"
 }
 {
-"angle" "225"
-"origin" "-256 0 80"
+"angle" "315"
+"origin" "-256 0 88"
 "classname" "team_CTF_blueflag"
+"gametype" "ctf, oneflag"
 }
 {
 "classname" "item_armor_combat"
@@ -989,9 +991,10 @@
 "classname" "item_armor_combat"
 }
 {
-"angle" "45"
+"angle" "135"
 "classname" "team_CTF_redflag"
-"origin" "5696 1600 80"
+"origin" "5696 1600 88"
+"gametype" "ctf, oneflag"
 }
 {
 "targetname" "midjump2red"
@@ -1250,16 +1253,23 @@
 {
 "origin" "5696 1600 64"
 "classname" "team_redobelisk"
+"angle" "225"
 }
 {
 "gametype" "oneflag"
-"origin" "2720 800 32"
+"origin" "2720 800 24"
 "classname" "team_CTF_neutralflag"
+"angle" "315"
 }
 {
 "classname" "item_quad"
 "origin" "2720 800 32"
-"not_gametype" "6 8"
+"gametype" "ctf"
+}
+{
+"classname" "holdable_kamikaze"
+"origin" "2720 800 32"
+"gametype" "obelisk"
 }
 {
 "count" "128"
@@ -1271,6 +1281,8 @@
 {
 "origin" "2720 800 0"
 "classname" "team_neutralobelisk"
+"gametype" "oneflag, harvester"
+"angle" "45"
 }
 {
 "origin" "2720 800 64"
@@ -1385,7 +1397,7 @@
 "origin" "3312 1152 304"
 }
 {
-"not_gametype" "6 8"
+"gametype" "ctf, obelisk"
 "origin" "2712 800 288"
 "classname" "weapon_rocketlauncher"
 }
@@ -1418,7 +1430,7 @@
 }
 {
 "gametype" "oneflag harvester"
-"classname" "item_quad"
+"classname" "holdable_kamikaze"
 "origin" "2720 800 224"
 }
 {
@@ -1544,4 +1556,41 @@
 "model" "*65"
 "classname" "func_static"
 "not_gametype" "6 8"
+}
+
+//Added by Kr3m
+
+{
+"origin" "5696 1750 88"
+"classname" "item_ammoregen"
+}
+{
+"origin" "5696 1450 88"
+"classname" "item_doubler"
+}
+
+{
+"origin" "5546 1750 88"
+"classname" "item_guard"
+}
+{
+"origin" "5546 1450 88"
+"classname" "item_scout"
+}
+
+{
+"classname" "item_doubler"
+"origin" "-256 150 88"
+}
+{
+"classname" "item_ammoregen"
+"origin" "-256 -150 88"
+}
+{
+"classname" "item_scout"
+"origin" "-106 150 88"
+}
+{
+"classname" "item_guard"
+"origin" "-106 -150 88"
 }
