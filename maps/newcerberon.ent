@@ -38,6 +38,12 @@
 {
 "classname" "weapon_grenadelauncher"
 "origin" "1792 384 32"
+"notta" "1"
+}
+{
+"classname" "weapon_prox_launcher"
+"origin" "1792 384 32"
+"notq3a" "1"
 }
 {
 "classname" "weapon_railgun"
@@ -212,6 +218,12 @@
 {
 "origin" "1384 536 96"
 "classname" "ammo_grenades"
+"notta" "1"
+}
+{
+"origin" "1384 536 96"
+"classname" "ammo_mines"
+"notq3a" "1"
 }
 {
 "classname" "ammo_rockets"
@@ -1087,6 +1099,12 @@
 {
 "classname" "ammo_grenades"
 "origin" "4056 1064 96"
+"notta" "1"
+}
+{
+"classname" "ammo_mines"
+"origin" "4056 1064 96"
+"notq3a" "1"
 }
 {
 "origin" "3392 416 224"
@@ -1222,6 +1240,12 @@
 {
 "origin" "3648 1216 32"
 "classname" "weapon_grenadelauncher"
+"notta" "1"
+}
+{
+"origin" "3648 1216 32"
+"classname" "weapon_prox_launcher"
+"notq3a" "1"
 }
 {
 "origin" "3824 816 -160"
