@@ -33,6 +33,7 @@
 {
 "classname" "item_regen"
 "origin" "0 -800 434"
+"notta" "1"
 }
 {
 "classname" "team_CTF_bluespawn"
@@ -125,6 +126,7 @@
 "classname" "weapon_lightning"
 "origin" "0 0 32"
 "not_gametype" "dom 1f har"
+"gametype" "ctf, obelisk"
 }
 {
 "classname" "weapon_rocketlauncher"
@@ -908,6 +910,7 @@
 {
 "classname" "item_regen"
 "origin" "0 800 434"
+"notta" "1"
 }
 {
 "model" "*12"
@@ -1164,4 +1167,37 @@
 "targetname" "t112"
 "classname" "target_position"
 "origin" "-224 -1200 328"
+}
+
+//Added by Kr3m
+
+{
+"classname" "item_guard"
+"origin" "-208 1632 224"
+"spawnflags" "2"
+}
+{
+"classname" "item_doubler"
+"origin" "208 1632 224"
+"spawnflags" "2"
+}
+{
+"classname" "item_guard"
+"origin" "208 -1632 224"
+"spawnflags" "4"
+}
+{
+"classname" "item_doubler"
+"origin" "-208 -1632 224"
+"spawnflags" "4"
+}
+{
+"classname" "holdable_kamikaze"
+"origin" "0 800 434"
+"notq3a" "1"
+}
+{
+"classname" "holdable_kamikaze"
+"origin" "0 -800 434"
+"notq3a" "1"
 }
