@@ -458,14 +458,13 @@
 }
 {
 "origin" "0 -736 80"
-"gametype" "ctf 1f har ob"
 "angle" "90"
 "classname" "team_redobelisk"
 }
 {
 "origin" "0 736 96"
 "angle" "360"
-"gametype" "ctf 1f"
+"gametype" "ctf oneflag"
 "classname" "team_CTF_blueflag"
 }
 {
@@ -668,7 +667,7 @@
 {
 "angle" "360"
 "origin" "0 -736 112"
-"gametype" "ctf 1f"
+"gametype" "ctf oneflag"
 "classname" "team_CTF_redflag"
 }
 {
@@ -683,7 +682,6 @@
 }
 {
 "angle" "270"
-"gametype" "ctf 1f har ob"
 "origin" "0 736 80"
 "classname" "team_blueobelisk"
 }
@@ -693,14 +691,14 @@
 "classname" "item_quad"
 }
 {
-"angle" "90"
-"gametype" "har 1f"
+"angle" "0"
+"gametype" "harvester oneflag"
 "origin" "0 0 -190"
 "classname" "team_neutralobelisk"
 }
 {
-"angle" "90"
-"gametype" "har 1f"
+"angle" "270"
+"gametype" "oneflag"
 "origin" "0 0 -166"
 "classname" "team_CTF_neutralflag"
 }
@@ -865,4 +863,48 @@
 "origin" "4 68 276"
 "count" "999"
 "targetname" "givethis"
+}
+
+//Added by Kr3m
+
+{
+"origin" "184 -576 16"
+"classname" "item_guard"
+"spawnflags" "2"
+}
+{
+"origin" "-184 -576 16"
+"classname" "item_doubler"
+"spawnflags" "2"
+}
+{
+"origin" "344 -200 144"
+"classname" "item_ammoregen"
+"spawnflags" "2"
+}
+{
+"origin" "-344 -200 144"
+"classname" "item_scout"
+"spawnflags" "2"
+}
+
+{
+"origin" "-184 576 16"
+"classname" "item_guard"
+"spawnflags" "4"
+}
+{
+"origin" "184 576 16"
+"classname" "item_doubler"
+"spawnflags" "4"
+}
+{
+"origin" "-344 200 144"
+"classname" "item_ammoregen"
+"spawnflags" "4"
+}
+{
+"origin" "344 200 144"
+"classname" "item_scout"
+"spawnflags" "4"
 }
