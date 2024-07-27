@@ -99,6 +99,7 @@
 "spawnflags" "0"
 "classname" "weapon_bfg"
 "origin" "404 2496 2368"
+"notta" "1"
 }
 {
 "classname" "item_health_large"
@@ -183,12 +184,16 @@
 "model" "*2"
 }
 {
-"origin" "9984 -416 2848"
+"origin" "9984 -416 2858"
 "classname" "team_CTF_blueflag"
+"angle" "90"
+"gametype" "ctf, oneflag"
 }
 {
 "classname" "team_CTF_redflag"
-"origin" "-9776 -96 2848"
+"origin" "-9776 -96 2858"
+"angle" "270"
+"gametype" "ctf, oneflag"
 }
 {
 "classname" "light"
@@ -2745,29 +2750,6 @@
 "weight" "999999999"
 }
 {
-"origin" "656 -64 2456"
-"classname" "team_CTF_neutralflag"
-"gametype" "oneflag"
-"team" "oneflags"
-}
-{
-"gametype" "harvester"
-"classname" "team_neutralobelisk"
-"origin" "800 -64 2432"
-}
-{
-"gametype" "oneflag"
-"classname" "team_CTF_neutralflag"
-"origin" "16 -2528 1376"
-"team" "oneflags"
-}
-{
-"gametype" "oneflag"
-"classname" "team_CTF_neutralflag"
-"origin" "456 2496 2376"
-"team" "oneflags"
-}
-{
 "origin" "9744 2064 2288"
 "angle" "225"
 "spawnflags" "0"
@@ -2866,4 +2848,38 @@
 "weight" "999999999"
 "origin" "404 2496 2364"
 "classname" "item_botroam"
+}
+
+//Added by Kr3m
+
+{
+"classname" "team_CTF_neutralflag"
+"origin" "104 -256 2392"
+"gametype" "oneflag"
+}
+{
+"classname" "team_neutralobelisk"
+"origin" "104 -256 2368"
+"gametype" "oneflag, harvester"
+"angle" "90"
+}
+{
+"classname" "team_CTF_neutralflag"
+"origin" "404 2496 2378"
+"gametype" "oneflag"
+"angle" "90"
+}
+{
+"classname" "team_neutralobelisk"
+"origin" "404 2496 2354"
+"gametype" "oneflag, harvester"
+}
+{
+"classname" "team_redobelisk"
+"origin" "-9776 -96 2834"
+}
+{
+"origin" "9984 -416 2834"
+"classname" "team_blueobelisk"
+"angle" "180"
 }
