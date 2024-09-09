@@ -7,8 +7,9 @@
 }
 {
 "classname" "team_CTF_blueflag"
-"origin" "384 224 17"
-"angle" "90"
+"origin" "384 224 25"
+"angle" "270"
+"gametype" "ctf, oneflag"
 }
 {
 "classname" "item_health_mega"
@@ -204,7 +205,7 @@
 "target" "t20"
 }
 {
-"angle" "270"
+"angle" "360"
 "classname" "team_blueobelisk"
 "origin" "384 224 1"
 }
@@ -418,14 +419,15 @@
 "angle" "90"
 }
 {
-"angle" "90"
+"angle" "180"
 "origin" "2112 -3104 1"
 "classname" "team_redobelisk"
 }
 {
 "angle" "90"
-"origin" "2112 -3104 17"
+"origin" "2112 -3104 25"
 "classname" "team_CTF_redflag"
+"gametype" "ctf, oneflag"
 }
 {
 "model" "*14"
@@ -729,7 +731,7 @@
 {
 "classname" "item_regen"
 "origin" "1248 -1440 -80"
-"not_gametype" "1f har"
+"gametype" "ctf, obelisk"
 }
 {
 "model" "*24"
@@ -788,21 +790,20 @@
 "message" "^1Flag Area"
 }
 {
-"gametype" "1f"
+"gametype" "oneflag"
 "classname" "team_CTF_neutralflag"
-"origin" "1248 -1440 -76"
-"not_gametype" "ctf ob har"
+"origin" "1248 -1440 -80"
 }
 {
-"gametype" "har 1f"
+"gametype" "oneflag, harvester"
 "classname" "team_neutralobelisk"
 "origin" "1248 -1440 -104"
-"not_gametype" "ob"
+"angle" "135"
 }
 {
 "model" "*30"
 "classname" "func_static"
-"not_gametype" "1f har"
+"not_gametype" "oneflag, harveser"
 }
 {
 "angle" "90"
