@@ -275,16 +275,16 @@
 "classname" "item_armor_body"
 }
 {
-"origin" "64 64 1168"
+"origin" "64 64 1562"
 "gametype" "oneflag,harvester"
 "classname" "holdable_kamikaze"
 "notq3a" "1"
 }
 {
-"origin" "64 64 1168"
+"origin" "64 64 1562"
 "gametype" "ctf"
-"notta" "1"
 "classname" "item_quad"
+"notta" "1"
 }
 {
 "_color" "0.87000 0.79210 0.55300"
