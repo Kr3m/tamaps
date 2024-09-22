@@ -10,7 +10,8 @@
 {
 "gametype" "ctf,oneflag"
 "classname" "team_CTF_blueflag"
-"origin" "0 0 112"
+"origin" "0 0 120"
+"angle" "180"
 }
 {
 "spawnflags" "4"
@@ -1104,16 +1105,17 @@
 "classname" "team_CTF_neutralflag"
 "origin" "2048 -4352 -120"
 "gametype" "oneflag"
+"angle" "270"
 }
 {
 "classname" "team_redobelisk"
 "origin" "4096 -8704 96"
-"angle" "270"
+"angle" "90"
 }
 {
 "gametype" "ctf,oneflag"
 "classname" "team_CTF_redflag"
-"origin" "4096 -8704 112"
+"origin" "4096 -8704 120"
 }
 {
 "origin" "4944 -8704 24"
