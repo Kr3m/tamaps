@@ -1971,13 +1971,13 @@
 "classname" "team_CTF_neutralflag"
 "origin" "-160 -96 -268"
 "gametype" "oneflag"
-"angle" "225"
+"angle" "180"
 }
 {
 "classname" "team_neutralobelisk"
 "origin" "-160 -96 -284"
 "gametype" "oneflag, harvester"
-"angle" "315"
+"angle" "270"
 }
 
 {
