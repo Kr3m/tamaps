@@ -39,10 +39,10 @@
 "angle" "45"
 }
 {
-"gametype" "ctf"
+"gametype" "ctf, oneflag"
 "classname" "team_CTF_redflag"
 "origin" "1052 1940 0"
-"angle" "135"
+"angle" "45"
 }
 {
 "classname" "item_health"
@@ -936,10 +936,10 @@
 "classname" "item_armor_combat"
 }
 {
-"angle" "135"
+"angle" "225"
 "origin" "-1372 -2132 0"
 "classname" "team_CTF_blueflag"
-"gametype" "ctf"
+"gametype" "ctf, oneflag"
 }
 {
 "origin" "-2768 -1560 72"
@@ -1787,6 +1787,7 @@
 "classname" "item_quad"
 "origin" "-160 -96 -268"
 "spawnflags" "1"
+"gametype" "ctf"
 }
 {
 "classname" "target_location"
@@ -1962,4 +1963,36 @@
 "target" "t644"
 "origin" "1504 648 128"
 "classname" "misc_portal_surface"
+}
+
+//Added by Kr3m
+
+{
+"classname" "team_CTF_neutralflag"
+"origin" "-160 -96 -268"
+"gametype" "oneflag"
+"angle" "225"
+}
+{
+"classname" "team_neutralobelisk"
+"origin" "-160 -96 -284"
+"gametype" "oneflag, harvester"
+"angle" "315"
+}
+
+{
+"classname" "team_redobelisk"
+"origin" "1052 1940 -16"
+"angle" "135"
+}
+{
+"angle" "315"
+"origin" "-1372 -2132 -16"
+"classname" "team_blueobelisk"
+}
+
+{
+"classname" "holdable_kamikaze"
+"origin" "-160 -96 -268"
+"gametype" "obelisk"
 }
