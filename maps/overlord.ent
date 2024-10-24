@@ -1,6 +1,6 @@
 {
 "_minvertexlight" "25"
-"message" "Overlord"
+"message" "Overdose"
 "music" "music\fla_mp05.wav"
 "classname" "worldspawn"
 "ambient" "4"
@@ -2069,4 +2069,68 @@
 "angle" "90"
 "targetname" "t90"
 "not_gametype" "race"
+}
+
+//Added by Kr3m
+
+{
+"spawnflags" "2"
+"origin" "4000 2164 28"
+"classname" "item_scout"
+}
+{
+"spawnflags" "2"
+"classname" "item_scout"
+"origin" "3872 2164 24"
+}
+{
+"spawnflags" "2"
+"classname" "item_doubler"
+"origin" "4160 1944 348"
+}
+{
+"classname" "item_ammoregen"
+"spawnflags" "2"
+"origin" "4480 2164 28"
+}
+{
+"origin" "4334 2164 28"
+"spawnflags" "2"
+"classname" "item_guard"
+}
+{
+"classname" "item_guard"
+"spawnflags" "2"
+"origin" "3538 1682 66"
+}
+
+{
+"classname" "item_doubler"
+"spawnflags" "4"
+"origin" "-4156 -1946 346"
+}
+{
+"classname" "item_scout"
+"origin" "-4006 -2136 28"
+"spawnflags" "4"
+}
+{
+"origin" "-3874 -2136 28"
+"classname" "item_scout"
+"spawnflags" "4"
+}
+{
+"classname" "item_ammoregen"
+"spawnflags" "4"
+"origin" "-4430 -2136 28"
+}
+{
+"origin" "-4302 -2136 26"
+"spawnflags" "4"
+"classname" "item_guard"
+}
+{
+"classname" "item_guard"
+"spawnflags" "4"
+"origin" "-3538 -1682 66"
 }
