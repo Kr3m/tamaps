@@ -2134,3 +2134,24 @@
 "spawnflags" "4"
 "origin" "-3538 -1682 66"
 }
+
+//Added by Kr3m
+
+{
+"classname" "holdable_medkit"
+"origin" "3744 2560 340"
+}
+{
+"wait" "120"
+"classname" "holdable_kamikaze"
+"origin" "4576 2560 340"
+}
+{
+"classname" "holdable_medkit"
+"origin" "-3740 -2560 340"
+}
+{
+"classname" "holdable_kamikaze"
+"origin" "-4576 -2560 340"
+"wait" "120"
+}
