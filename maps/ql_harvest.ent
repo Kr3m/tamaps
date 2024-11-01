@@ -257,8 +257,10 @@
 "classname" "team_dom_point"
 }
 {
-"origin" "-1912 228 -392"
+"origin" "-1912 228 −382"
 "classname" "team_CTF_blueflag"
+"gametype" "ctf, oneflag"
+"angle" "90"
 }
 {
 "origin" "-2080 136 -376"
@@ -400,8 +402,10 @@
 "classname" "team_CTF_redplayer"
 }
 {
-"origin" "1832 -304 -392"
+"origin" "1832 -304 -382"
 "classname" "team_CTF_redflag"
+"gametype" "ctf, oneflag"
+"angle" "270"
 }
 {
 "origin" "-1760 884 -392"
@@ -1078,4 +1082,27 @@
 "message" "Red megahealth spawn"
 "origin" "1700 -1028 -344"
 "classname" "target_location"
+}
+
+//Added by Kr3m
+
+{
+"origin" "-52 -24 -380"
+"classname" "team_neutralobelisk"
+"gametype" "oneflag, harvester"
+}
+{
+"origin" "-52 -24 -356"
+"classname" "team_CTF_neutralflag"
+"gametype" "oneflag"
+}
+
+{
+"origin" "1832 -304 -406"
+"classname" "team_redobelisk"
+}
+{
+"origin" "-1912 228 -406"
+"classname" "team_blueobelisk"
+"angle" "180"
 }
