@@ -330,7 +330,7 @@
 }
 {
 "classname" "weapon_lightning"
-"origin" "-864 256 -272"
+"origin" "-864 256 -262"
 }
 {
 "classname" "ammo_lightning"
