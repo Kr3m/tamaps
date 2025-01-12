@@ -49,7 +49,7 @@
 }
 {
 "classname" "misc_teleporter_dest"
-"gametype" "1f har"
+"gametype" "oneflag harvester"
 "notq3a" "1"
 "origin" "168 96 296"
 "angle" "360"
@@ -58,27 +58,27 @@
 {
 "model" "*4"
 "classname" "func_static"
-"gametype" "1f har dom"
+"gametype" "oneflag harvester dom"
 }
 {
 "model" "*5"
 "classname" "trigger_teleport"
-"gametype" "1f har dom"
+"gametype" "oneflag harvester dom"
 "target" "t12074"
 }
 {
 "model" "*6"
 "classname" "func_static"
-"gametype" "1f har dom"
+"gametype" "oneflag harvester dom"
 }
 {
 "model" "*7"
 "classname" "func_static"
-"gametype" "1f har dom"
+"gametype" "oneflag harvester dom"
 }
 {
 "model" "*8"
-"not_gametype" "1f ob har dom"
+"not_gametype" "oneflag obelisk harvester dom"
 "classname" "func_static"
 }
 {
@@ -2988,28 +2988,28 @@
 }
 {
 "model" "*25"
-"not_gametype" "1f ob har dom"
+"not_gametype" "oneflag obelisk harvester dom"
 "classname" "func_static"
 }
 {
 "model" "*26"
 "classname" "func_static"
-"gametype" "1f har dom"
+"gametype" "oneflag harvester dom"
 }
 {
 "model" "*27"
 "classname" "func_static"
-"gametype" "1f har dom"
+"gametype" "oneflag harvester dom"
 }
 {
 "model" "*28"
 "classname" "trigger_teleport"
-"gametype" "1f har dom"
+"gametype" "oneflag harvester dom"
 "target" "t12073"
 }
 {
 "classname" "misc_teleporter_dest"
-"gametype" "1f har dom"
+"gametype" "oneflag harvester dom"
 "angle" "360"
 "targetname" "t12073"
 "notq3a" "1"
@@ -3017,7 +3017,7 @@
 }
 {
 "classname" "misc_teleporter_dest"
-"gametype" "1f har dom"
+"gametype" "oneflag harvester dom"
 "angle" "180"
 "targetname" "t12074"
 "origin" "352 0 3224"
@@ -3035,18 +3035,18 @@
 {
 "model" "*29"
 "classname" "trigger_teleport"
-"gametype" "1f har dom"
+"gametype" "oneflag harvester dom"
 "target" "t12075"
 }
 {
 "model" "*30"
 "classname" "trigger_teleport"
-"gametype" "1f har dom"
+"gametype" "oneflag harvester dom"
 "target" "t12076"
 }
 {
 "classname" "misc_teleporter_dest"
-"gametype" "1f har"
+"gametype" "oneflag harvester"
 "angle" "180"
 "origin" "-168 -96 296"
 "targetname" "t12075"
@@ -3055,7 +3055,7 @@
 {
 "model" "*31"
 "classname" "func_static"
-"gametype" "1f har dom"
+"gametype" "oneflag harvester dom"
 }
 {
 "model" "*32"
@@ -3323,4 +3323,37 @@
 {
 "origin" "2320 -2112 536"
 "classname" "weapon_plasmagun"
+}
+
+//Added by Kr3m
+
+{
+"origin" "-2272 1376 32"
+"classname" "item_guard"
+"spawnflags" "2"
+}
+{
+"spawnflags" "2"
+"origin" "-2272 960 32"
+"classname" "item_ammoregen"
+}
+{
+"spawnflags" "2"
+"origin" "-1312 1376 24"
+"classname" "item_doubler"
+}
+{
+"classname" "item_guard"
+"origin" "2240 -1376 32"
+"spawnflags" "4"
+}
+{
+"classname" "item_ammoregen"
+"origin" "2272 −960 32"
+"spawnflags" "4"
+}
+{
+"classname" "item_doubler"
+"origin" "1312 -1376 24"
+"spawnflags" "4"
 }
