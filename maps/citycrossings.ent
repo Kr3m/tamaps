@@ -3334,26 +3334,48 @@
 }
 {
 "spawnflags" "2"
-"origin" "-2272 960 32"
-"classname" "item_ammoregen"
-}
-{
-"spawnflags" "2"
 "origin" "-1312 1376 24"
 "classname" "item_doubler"
 }
 {
 "classname" "item_guard"
-"origin" "2240 -1376 32"
-"spawnflags" "4"
-}
-{
-"classname" "item_ammoregen"
-"origin" "2272 −960 32"
+"origin" "2272 -1376 32"
 "spawnflags" "4"
 }
 {
 "classname" "item_doubler"
 "origin" "1312 -1376 24"
 "spawnflags" "4"
+}
+{
+"classname" "weapon_nailgun"
+"origin" "544 -768 -288"
+}
+{
+"classname" "weapon_nailgun"
+"origin" "-544 768 -288"
+}
+{
+"origin" "-1536 272 240"
+"classname" "ammo_nails"
+}
+{
+"origin" "-1822 2368 536"
+"classname" "ammo_nails"
+}
+{
+"origin" "1536 -272 240"
+"classname" "ammo_nails"
+}
+{
+"origin" "+1822 -2368 536"
+"classname" "ammo_nails"
+}
+{
+"classname" "weapon_chaingun"
+"origin" "416 -1008 288"
+}
+{
+"classname" "weapon_chaingun"
+"origin" "-416 1008 288"
 }
