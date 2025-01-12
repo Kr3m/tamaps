@@ -7,6 +7,7 @@
 "classname" "team_CTF_neutralflag"
 "gametype" "oneflag"
 "origin" "-512 512 89"
+"angle" "270"
 }
 {
 "origin" "-512 512 352"

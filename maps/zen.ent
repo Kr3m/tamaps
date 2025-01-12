@@ -1801,6 +1801,54 @@
 "classname" "item_haste"
 }
 {
+"classname" "ammo_pack"
+"origin" "-4272 -1840 -180"
+}
+{
+"classname" "ammo_pack"
+"origin" "-4288 -1184 4"
+}
+{
+"classname" "ammo_pack"
+"origin" "-2288 -224 68"
+}
+{
+"origin" "-3104 -80 4"
+"classname" "ammo_pack"
+}
+{
+"origin" "-5904 224 68"
+"classname" "ammo_pack"
+}
+{
+"classname" "ammo_pack"
+"origin" "-3904 1184 4"
+}
+{
+"origin" "-3920 1840 -180"
+"classname" "ammo_pack"
+}
+{
+"origin" "-5496 1872 -316"
+"classname" "ammo_pack"
+}
+{
+"classname" "ammo_pack"
+"origin" "-5088 80 4"
+}
+{
+"origin" "-4192 3456 -108"
+"classname" "ammo_pack"
+}
+{
+"classname" "ammo_pack"
+"origin" "-4004 -3456 -108"
+}
+{
+"classname" "ammo_pack"
+"origin" "-2696 -1872 -316"
+}
+{
 "angle" "315"
 "origin" "-4032 3008 -160"
 "classname" "team_blueobelisk"
