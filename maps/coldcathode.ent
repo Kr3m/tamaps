@@ -1,11 +1,11 @@
 {
-"classname" "worldspawn"
-"_mingridlight" "25"
-"_minvertexlight" "25"
-"music" "music/sonic5.wav"
-"Author2" "Tom 'Phantazm11' Perryman"
-"Author" "Ferdinand 'cityy' List"
 "message" "Cold Cathode"
+"Author" "Ferdinand 'cityy' List"
+"Author2" "Tom 'Phantazm11' Perryman"
+"music" "music/sonic5.wav"
+"_minvertexlight" "25"
+"_mingridlight" "25"
+"classname" "worldspawn"
 }
 {
 "angle" "45"
@@ -64,11 +64,11 @@
 "classname" "item_health"
 }
 {
-"not_gametype" "6 8 10"
+"not_gametype" "1f har dom"
 "team" "powerups"
 "origin" "0 0 312"
 "classname" "item_quad"
-"notta" "1"
+"gametype" "ctf"
 }
 {
 "angle" "90.000000"
@@ -137,15 +137,15 @@
 "classname" "item_health"
 }
 {
-"not_gametype" "6 8 10"
+"not_gametype" "1f har dom"
 "team" "powerups"
 "origin" "0 0 280"
 "classname" "item_regen"
-"notta" "1"
+"gametype" "ctf"
 }
 {
-"origin" "244 224 192"
-"classname" "ammo_rockets"
+"origin" "244 160 224"
+"classname" "ammo_pack"
 }
 {
 "angle" "-135.000015"
@@ -1113,10 +1113,156 @@
 "classname" "func_static"
 }
 {
+"classname" "ammo_pack"
+"origin" "-1036 456 304"
+}
+{
+"classname" "ammo_pack"
+"angle" "180.000000"
+"origin" "180 1928 184"
+}
+{
+"classname" "ammo_rockets"
+"origin" "244 160 192"
+}
+{
+"classname" "ammo_pack"
+"origin" "668 1536 480"
+}
+{
+"classname" "ammo_pack"
+"origin" "1036 -456 304"
+}
+{
+"classname" "ammo_pack"
+"angle" "-0.000000"
+"origin" "-180 -1928 184"
+}
+{
+"classname" "ammo_pack"
+"origin" "-260 -240 224"
+}
+{
+"classname" "ammo_pack"
+"origin" "-380 856 480"
+}
+{
+"classname" "ammo_pack"
+"origin" "-652 -1552 480"
+"angle" "180.000000"
+}
+{
+"classname" "ammo_pack"
+"origin" "380 -856 480"
+}
+{
+"classname" "ammo_pack"
+"origin" "-260 -664 480"
+"angle" "180.000000"
+}
+{
+"classname" "ammo_pack"
+"origin" "260 664 480"
+}
+{
 "not_gametype" "6 8 10"
 "team" "powerups"
 "origin" "0 0 312"
 "classname" "holdable_kamikaze"
 "gametype" "ctf obelisk"
 "notq3a" "1"
+}
+{
+"target" "r1"
+"origin" "348 -2184 -72"
+"classname" "race_point"
+}
+{
+"targetname" "r1"
+"origin" "-348 2184 -72"
+"classname" "race_point"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-80 -1888 -40"
+"gametype" "race"
+}
+{
+"gametype" "race"
+"origin" "48 -2144 -40"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "48 -2208 -40"
+"gametype" "race"
+}
+{
+"gametype" "race"
+"origin" "-16 -1888 -40"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-16 -1952 -40"
+"gametype" "race"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-16 -2016 -40"
+"gametype" "race"
+}
+{
+"gametype" "race"
+"origin" "112 -2208 -40"
+"classname" "info_player_deathmatch"
+}
+{
+"gametype" "race"
+"origin" "48 -1888 -40"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "48 -1952 -40"
+"gametype" "race"
+}
+{
+"gametype" "race"
+"origin" "112 -1888 -40"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "112 -1952 -40"
+"gametype" "race"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "320 -1920 -40"
+"gametype" "race"
+"angle" "270"
+}
+{
+"angle" "270"
+"gametype" "race"
+"origin" "384 -1920 -40"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "384 -1856 -40"
+"gametype" "race"
+"angle" "270"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "320 -1856 -40"
+"gametype" "race"
+"angle" "270"
+}
+{
+"gametype" "race"
+"origin" "48 -2016 -40"
+"classname" "info_player_deathmatch"
 }
