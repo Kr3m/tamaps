@@ -22,6 +22,7 @@
 "target" "putrap1"
 "team" "powerup"
 "origin" "0 0 -40"
+"notta" "1"
 "classname" "item_haste"
 }
 {
@@ -75,8 +76,10 @@
 "classname" "target_position"
 }
 {
-"origin" "-32 -2080 25"
+"origin" "-32 -2080 34"
+"angle" "90"
 "classname" "team_CTF_blueflag"
+"gametype" "ctf, oneflag"
 }
 {
 "spawnflags" "1"
@@ -581,12 +584,6 @@
 }
 {
 "angle" "180"
-"not_gametype" "6"
-"origin" "0 0 272"
-"classname" "weapon_railgun"
-}
-{
-"angle" "180"
 "spawnflags" "1"
 "origin" "-208 2256 272"
 "classname" "weapon_rocketlauncher"
@@ -1056,6 +1053,89 @@
 "classname" "team_CTF_redspawn"
 }
 {
-"origin" "32 2080 32"
+"origin" "32 2080 34"
+"angle" "270"
 "classname" "team_CTF_redflag"
+"gametype" "ctf, oneflag"
+}
+
+//Added by Kr3m
+
+{
+"gametype" "oneflag, harvester"
+"origin" "0 0 256"
+"classname" "team_neutralobelisk"
+}
+{
+"angle" "270"
+"gametype" "oneflag"
+"origin" "0 0 280"
+"classname" "team_CTF_neutralflag"
+}
+{
+"origin" "32 2080 10"
+"classname" "team_redobelisk"
+}
+{
+"origin" "-32 -2080 10"
+"angle" "180"
+"classname" "team_blueobelisk"
+}
+
+{
+"origin" "132 1980 34"
+"classname" "item_guard"
+"spawnflags" "2"
+}
+{
+"origin" "132 2180 34"
+"classname" "item_doubler"
+"spawnflags" "2"
+}
+{
+"origin" "-232 1980 34"
+"classname" "item_ammoregen"
+"spawnflags" "2"
+}
+{
+"origin" "-232 2180 34"
+"classname" "item_scout"
+"spawnflags" "2"
+}
+
+{
+"origin" "-132 -1980 34"
+"classname" "item_guard"
+"spawnflags" "4"
+}
+{
+"origin" "-132 -2180 34"
+"classname" "item_doubler"
+"spawnflags" "4"
+}
+{
+"origin" "168 -1980 34"
+"classname" "item_ammoregen"
+"spawnflags" "4"
+}
+{
+"origin" "168 -2180 34"
+"classname" "item_scout"
+"spawnflags" "4"
+}
+{
+"target" "putrap1"
+"team" "powerup"
+"origin" "0 0 -40"
+"notq3a" "1"
+"gametype" "harvester, obelisk"
+"classname" "holdable_kamikaze"
+}
+{
+"target" "putrap1"
+"team" "powerup"
+"origin" "0 0 -40"
+"notq3a" "1"
+"gametype" "ctf, oneflag"
+"classname" "item_quad"
 }
