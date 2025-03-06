@@ -257,10 +257,9 @@
 "classname" "team_dom_point"
 }
 {
-"origin" "-1912 228 −382"
+"origin" "-1912 228 -382"
 "classname" "team_CTF_blueflag"
 "gametype" "ctf, oneflag"
-"angle" "90"
 }
 {
 "origin" "-2080 136 -376"
