@@ -55,7 +55,7 @@
 {
 "classname" "item_quad"
 "origin" "-488 256 24"
-"not_gametype" "6 7 8"
+"notta" "1"
 "gametype" "ctf obelisk"
 }
 {
@@ -1277,4 +1277,54 @@
 "angle" "315"
 "gametype" "dom"
 "targetname" "t151"
+}
+
+//Added by Kr3m
+
+{
+"origin" "2200 1500 224"
+"classname" "item_doubler"
+"spawnflags" "2"
+}
+{
+"origin" "2400 1500 224"
+"classname" "item_guard"
+"spawnflags" "2"
+}
+{
+"classname" "item_scout"
+"origin" "2200 1956 224"
+"spawnflags" "2"
+}
+{
+"classname" "item_ammoregen"
+"origin" "2400 1956 224"
+"spawnflags" "2"
+}
+
+{
+"origin" "-3096 -988 224"
+"classname" "item_doubler"
+"spawnflags" "4"
+}
+{
+"origin" "-3296 -988 224"
+"classname" "item_guard"
+"spawnflags" "4"
+}
+{
+"classname" "item_scout"
+"origin" "-3096 -1444 224"
+"spawnflags" "4"
+}
+{
+"classname" "item_ammoregen"
+"origin" "-3296 -1444 224"
+"spawnflags" "4"
+}
+{
+"classname" "holdable_kamikaze"
+"origin" "-488 256 24"
+"noq3a" "1"
+"gametype" "ctf obelisk"
 }
