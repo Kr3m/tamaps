@@ -34,8 +34,9 @@
 "origin" "2256 -216 920"
 }
 {
-"origin" "-3392 -440 1136"
+"origin" "-3392 -440 1144"
 "classname" "team_CTF_blueflag"
+"gametype" "ctf, oneflag"
 }
 {
 "origin" "1448 -664 784"
@@ -63,7 +64,7 @@
 "model" "*1"
 }
 {
-"origin" "1024 -320 592"
+"origin" "1024 -320 776"
 "classname" "item_quad"
 }
 {
@@ -152,8 +153,9 @@
 "classname" "target_position"
 }
 {
-"origin" "2368 -448 1136"
+"origin" "2368 -448 1144"
 "classname" "team_CTF_redflag"
+"gametype" "ctf, oneflag"
 }
 {
 "classname" "func_door"
@@ -202,7 +204,7 @@
 "origin" "1696 160 784"
 }
 {
-"origin" "1024 -320 776"
+"origin" "924 -320 776"
 "classname" "weapon_lightning"
 }
 {
@@ -1309,7 +1311,7 @@
 {
 "angle" "0"
 "classname" "item_quad"
-"origin" "-2048 -320 592"
+"origin" "-2048 -320 776"
 }
 {
 "angle" "0"
@@ -1467,7 +1469,7 @@
 {
 "angle" "0"
 "classname" "weapon_lightning"
-"origin" "-2048 -320 776"
+"origin" "-1948 -320 776"
 }
 {
 "angle" "0"
@@ -2412,4 +2414,30 @@
 "origin" "-3616 -128 920"
 "angle" "360"
 "classname" "team_CTF_bluespawn"
+}
+
+//Added by Kr3m
+
+{
+"origin" "-432 816 918"
+"classname" "team_CTF_neutralflag"
+"gametype" "oneflag"
+"angle" "0"
+}
+{
+"origin" "-432 816 894"
+"classname" "team_neutralobelisk"
+"gametype" "oneflag, harvester"
+"angle" "90"
+}
+
+{
+"origin" "2368 -448 1120"
+"classname" "team_redobelisk"
+"angle" "90"
+}
+{
+"origin" "-3392 -440 1120"
+"classname" "team_blueobelisk"
+"angle" "90"
 }
