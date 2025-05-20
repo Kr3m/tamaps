@@ -185,7 +185,8 @@
 "classname" "team_CTF_redspawn"
 }
 {
-"origin" "256 2528 -160"
+"origin" "256 2528 -168"
+"angle" "90"
 "classname" "team_blueobelisk"
 }
 {
@@ -287,6 +288,7 @@
 {
 "classname" "team_redobelisk"
 "origin" "256 -2592 -168"
+"angle" "270"
 }
 {
 "origin" "-896 -2240 -320"
@@ -339,7 +341,7 @@
 "classname" "team_CTF_redplayer"
 }
 {
-"angle" "90"
+"angle" "180"
 "origin" "256 -2592 -136"
 "classname" "team_CTF_redflag"
 }
@@ -357,7 +359,7 @@
 "classname" "team_CTF_blueplayer"
 }
 {
-"angle" "270"
+"angle" "0"
 "origin" "256 2528 -136"
 "classname" "team_CTF_blueflag"
 }
