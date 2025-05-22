@@ -400,11 +400,11 @@
 "model" "*5"
 }
 {
-"origin" "128 1444 -296"
+"origin" "128 1444 -304"
 "classname" "team_blueobelisk"
 }
 {
-"origin" "128 -2500 -300"
+"origin" "128 -2500 -304"
 "classname" "team_redobelisk"
 "angle" "270"
 }
