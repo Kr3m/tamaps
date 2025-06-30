@@ -76,9 +76,9 @@
 }
 {
 "origin" "320 2240 468"
-"angle" "0"
+"angle" "360"
 "classname" "team_CTF_redflag"
-"gametype" "ctf, oneflag"
+"gametype" "ctf oneflag"
 }
 {
 "origin" "480 -1888 474"
@@ -89,7 +89,7 @@
 {
 "origin" "320 -1664 468"
 "classname" "team_CTF_blueflag"
-"gametype" "ctf, oneflag"
+"gametype" "ctf oneflag"
 "angle" "180"
 }
 {
@@ -294,6 +294,7 @@
 "origin" "576 -1280 216"
 }
 {
+"not_gametype" "oneflag harvester"
 "origin" "320 288 20"
 "classname" "item_health_mega"
 "gametype" "ctf, obelisk"
@@ -354,7 +355,7 @@
 {
 "model" "*6"
 "classname" "func_static"
-"not_gametype" "1f"
+"not_gametype" "oneflag"
 }
 {
 "classname" "item_armor_combat"
@@ -690,7 +691,7 @@
 {
 "classname" "team_neutralobelisk"
 "origin" "320 288 0"
-"gametype" "oneflag, harvester"
+"gametype" "oneflag harvester"
 "angle" "0"
 }
 {

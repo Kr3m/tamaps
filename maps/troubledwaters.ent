@@ -195,7 +195,7 @@
 "origin" "-2304 -544 352"
 }
 {
-"gametype" "ctf, oneflag"
+"gametype" "ctf oneflag"
 "spawnflags" "256"
 "classname" "team_CTF_redflag"
 "origin" "-2207 -288 306"
@@ -293,7 +293,6 @@
 {
 "classname" "ammo_grenades"
 "origin" "-1944 176 296"
-"notta" "1"
 }
 {
 "classname" "weapon_grenadelauncher"
@@ -627,7 +626,7 @@
 "origin" "2416 -16 376"
 }
 {
-"gametype" "ctf, oneflag"
+"gametype" "ctf oneflag"
 "classname" "team_CTF_blueflag"
 "origin" "2320 -272 306"
 "angle" "90"
@@ -724,7 +723,6 @@
 {
 "classname" "ammo_grenades"
 "origin" "2048 -736 296"
-"notta" "1"
 }
 {
 "classname" "weapon_grenadelauncher"
@@ -1847,17 +1845,16 @@
 {
 "model" "*53"
 "classname" "func_static"
-"gametype" "oneflag, harvester"
+"gametype" "harvester oneflag"
 }
 {
 "origin" "56 -280 128"
 "classname" "team_neutralobelisk"
-"gametype" "oneflag, harvester"
-"angle" "90"
+"gametype" "harvester oneflag"
 }
 {
 "model" "*54"
-"gametype" "oneflag, harvester"
+"gametype" "harvester oneflag"
 "classname" "func_static"
 }
 {

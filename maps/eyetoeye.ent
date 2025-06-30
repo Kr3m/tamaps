@@ -1,362 +1,344 @@
 {
-"music" "music/sonic6.wav"
-"message" "Eye to Eye"
-"ambient" "1"
-"classname" "worldspawn"
 "disable_loadout" "hmg rl lg rg sg gl pg mg"
+"classname" "worldspawn"
+"ambient" "1"
+"message" "Eye to Eye"
+"music" "music/sonic6.wav"
 }
 {
-"classname" "info_player_deathmatch"
+"target" "target_give"
+"angle" "135.000000"
 "origin" "664 -664 72"
-"angle" "135.000000"
-"target" "target_give"
+"classname" "info_player_deathmatch"
 }
 {
-"classname" "info_player_deathmatch"
-"angle" "-135.000000"
+"target" "target_give"
 "origin" "680 664 72"
-"target" "target_give"
+"angle" "-135.000000"
+"classname" "info_player_deathmatch"
 }
 {
-"classname" "info_player_deathmatch"
+"target" "target_give"
+"angle" "-45.000008"
 "origin" "-664 664 72"
-"angle" "-45.000008"
-"target" "target_give"
+"classname" "info_player_deathmatch"
 }
 {
-"classname" "item_armor_body"
+"targetname" "payload"
 "origin" "-96 -32 416"
-"targetname" "payload"
-}
-{
-"classname" "weapon_lightning"
-"origin" "-32 -96 416"
-"targetname" "payload"
-}
-{
-"classname" "weapon_rocketlauncher"
-"origin" "32 -96 416"
-"targetname" "payload"
-}
-{
-"classname" "weapon_shotgun"
-"origin" "96 -32 416"
-"targetname" "payload"
-}
-{
-"classname" "weapon_grenadelauncher"
-"origin" "96 32 416"
-"targetname" "payload"
-}
-{
-"classname" "item_health_mega"
-"origin" "32 96 416"
-"targetname" "payload"
-}
-{
-"classname" "weapon_plasmagun"
-"origin" "-32 96 416"
-"targetname" "payload"
-}
-{
 "classname" "item_armor_body"
+}
+{
+"targetname" "payload"
+"origin" "-32 -96 416"
+"classname" "weapon_lightning"
+}
+{
+"targetname" "payload"
+"origin" "32 -96 416"
+"classname" "weapon_rocketlauncher"
+}
+{
+"targetname" "payload"
+"origin" "96 -32 416"
+"classname" "weapon_shotgun"
+}
+{
+"targetname" "payload"
+"origin" "96 32 416"
+"classname" "weapon_grenadelauncher"
+}
+{
+"targetname" "payload"
+"origin" "32 96 416"
+"classname" "item_health_mega"
+}
+{
+"targetname" "payload"
+"origin" "-32 96 416"
+"classname" "weapon_plasmagun"
+}
+{
+"targetname" "payload"
 "origin" "-96 32 416"
-"targetname" "payload"
+"classname" "item_armor_body"
 }
 {
-"classname" "ammo_shells"
+"targetname" "payload"
 "origin" "-96 96 416"
-"targetname" "payload"
+"classname" "ammo_shells"
 }
 {
-"classname" "ammo_rockets"
+"targetname" "payload"
 "origin" "-32 160 416"
-"targetname" "payload"
+"classname" "ammo_rockets"
 }
 {
-"classname" "ammo_rockets"
+"targetname" "payload"
 "origin" "32 160 416"
-"targetname" "payload"
-}
-{
 "classname" "ammo_rockets"
+}
+{
+"targetname" "payload"
 "origin" "96 96 416"
-"targetname" "payload"
+"classname" "ammo_rockets"
 }
 {
-"classname" "ammo_lightning"
+"targetname" "payload"
 "origin" "160 32 416"
-"targetname" "payload"
-}
-{
 "classname" "ammo_lightning"
+}
+{
+"targetname" "payload"
 "origin" "160 -32 416"
-"targetname" "payload"
+"classname" "ammo_lightning"
 }
 {
-"classname" "ammo_cells"
+"targetname" "payload"
 "origin" "96 -96 416"
-"targetname" "payload"
-}
-{
 "classname" "ammo_cells"
+}
+{
+"targetname" "payload"
 "origin" "32 -160 416"
-"targetname" "payload"
+"classname" "ammo_cells"
 }
 {
-"classname" "ammo_grenades"
+"targetname" "payload"
 "origin" "-32 -160 416"
-"targetname" "payload"
+"classname" "ammo_grenades"
 }
 {
-"classname" "ammo_grenades"
+"targetname" "payload"
 "origin" "0 -224 416"
-"targetname" "payload"
-}
-{
 "classname" "ammo_grenades"
+}
+{
+"targetname" "payload"
 "origin" "-96 -96 416"
-"targetname" "payload"
+"classname" "ammo_grenades"
 }
 {
-"classname" "ammo_shells"
+"targetname" "payload"
 "origin" "0 224 416"
-"targetname" "payload"
-}
-{
 "classname" "ammo_shells"
+}
+{
+"targetname" "payload"
 "origin" "-160 0 416"
-"targetname" "payload"
+"classname" "ammo_shells"
 }
 {
-"classname" "target_give"
-"origin" "0 0 296"
-"target" "payload"
 "targetname" "target_give"
+"target" "payload"
+"origin" "0 0 296"
+"classname" "target_give"
 }
 {
+"classname" "func_static"
 "model" "*1"
-"classname" "func_static"
 }
 {
+"classname" "func_static"
 "model" "*2"
-"classname" "func_static"
 }
 {
+"classname" "func_static"
 "model" "*3"
-"classname" "func_static"
 }
 {
+"classname" "func_static"
 "model" "*4"
-"classname" "func_static"
 }
 {
-"target" "target_give"
-"angle" "45.000000"
+"classname" "info_player_deathmatch"
 "origin" "-304 -304 -16"
-"classname" "info_player_deathmatch"
+"angle" "45.000000"
+"target" "target_give"
 }
 {
-"range" "384"
-"origin" "0 0 0"
 "classname" "info_camp"
+"origin" "0 0 0"
+"range" "384"
 }
 {
-"target" "target_give"
-"angle" "-45.000008"
+"classname" "info_player_deathmatch"
 "origin" "-632 728 72"
-"classname" "info_player_deathmatch"
-}
-{
-"target" "target_give"
 "angle" "-45.000008"
+"target" "target_give"
+}
+{
+"classname" "info_player_deathmatch"
 "origin" "-728 632 72"
-"classname" "info_player_deathmatch"
+"angle" "-45.000008"
+"target" "target_give"
 }
 {
-"target" "target_give"
+"classname" "info_player_deathmatch"
+"angle" "-135.000000"
 "origin" "744 632 72"
-"angle" "-135.000000"
-"classname" "info_player_deathmatch"
+"target" "target_give"
 }
 {
-"classname" "info_player_deathmatch"
-"angle" "-135.000000"
+"target" "target_give"
 "origin" "648 728 72"
-"target" "target_give"
+"angle" "-135.000000"
+"classname" "info_player_deathmatch"
 }
 {
-"target" "target_give"
-"angle" "135.000000"
+"classname" "info_player_deathmatch"
 "origin" "736 -648 72"
-"classname" "info_player_deathmatch"
-}
-{
-"target" "target_give"
 "angle" "135.000000"
+"target" "target_give"
+}
+{
+"classname" "info_player_deathmatch"
 "origin" "640 -744 72"
-"classname" "info_player_deathmatch"
+"angle" "135.000000"
+"target" "target_give"
 }
 {
-"classname" "info_player_deathmatch"
+"target" "target_give"
+"angle" "45.000000"
 "origin" "-352 -256 -16"
-"angle" "45.000000"
-"target" "target_give"
+"classname" "info_player_deathmatch"
 }
 {
-"classname" "info_player_deathmatch"
+"target" "target_give"
+"angle" "45.000000"
 "origin" "-256 -352 -16"
-"angle" "45.000000"
-"target" "target_give"
+"classname" "info_player_deathmatch"
 }
 {
-"classname" "info_player_deathmatch"
+"target" "target_give"
+"angle" "45.000000"
 "origin" "-256 -256 -16"
-"angle" "45.000000"
-"target" "target_give"
+"classname" "info_player_deathmatch"
 }
 {
-"target" "target_give"
-"angle" "45.000000"
+"classname" "info_player_deathmatch"
 "origin" "-304 -208 -16"
-"classname" "info_player_deathmatch"
+"angle" "45.000000"
+"target" "target_give"
 }
 {
-"target" "target_give"
-"angle" "45.000000"
+"classname" "info_player_deathmatch"
 "origin" "-208 -304 -16"
-"classname" "info_player_deathmatch"
+"angle" "45.000000"
+"target" "target_give"
 }
 {
-"target" "target_give"
-"angle" "45.000000"
+"classname" "info_player_deathmatch"
 "origin" "-368 -192 -16"
-"classname" "info_player_deathmatch"
-}
-{
-"target" "target_give"
 "angle" "45.000000"
-"origin" "-192 -368 -16"
+"target" "target_give"
+}
+{
 "classname" "info_player_deathmatch"
+"origin" "-192 -368 -16"
+"angle" "45.000000"
+"target" "target_give"
 }
 {
-"targetname" "payload"
+"classname" "ammo_pack"
 "origin" "-96 96 452"
-"classname" "ammo_pack"
+"targetname" "payload"
 }
 {
-"targetname" "payload"
+"classname" "ammo_pack"
 "origin" "-32 160 452"
-"classname" "ammo_pack"
+"targetname" "payload"
 }
 {
-"targetname" "payload"
+"classname" "ammo_pack"
 "origin" "32 160 452"
-"classname" "ammo_pack"
+"targetname" "payload"
 }
 {
-"targetname" "payload"
+"classname" "ammo_pack"
 "origin" "96 96 452"
-"classname" "ammo_pack"
+"targetname" "payload"
 }
 {
-"targetname" "payload"
+"classname" "ammo_pack"
 "origin" "160 32 452"
-"classname" "ammo_pack"
+"targetname" "payload"
 }
 {
-"targetname" "payload"
+"classname" "ammo_pack"
 "origin" "160 -32 452"
-"classname" "ammo_pack"
+"targetname" "payload"
 }
 {
-"targetname" "payload"
+"classname" "ammo_pack"
 "origin" "96 -96 452"
-"classname" "ammo_pack"
+"targetname" "payload"
 }
 {
-"targetname" "payload"
+"classname" "ammo_pack"
 "origin" "32 -160 452"
-"classname" "ammo_pack"
+"targetname" "payload"
 }
 {
-"targetname" "payload"
+"classname" "ammo_pack"
 "origin" "-32 -160 452"
-"classname" "ammo_pack"
+"targetname" "payload"
 }
 {
-"targetname" "payload"
+"classname" "ammo_pack"
 "origin" "0 -224 452"
-"classname" "ammo_pack"
+"targetname" "payload"
 }
 {
-"targetname" "payload"
+"classname" "ammo_pack"
 "origin" "-96 -96 452"
-"classname" "ammo_pack"
+"targetname" "payload"
 }
 {
-"targetname" "payload"
+"classname" "ammo_pack"
 "origin" "0 224 452"
-"classname" "ammo_pack"
-}
-{
 "targetname" "payload"
-"origin" "-160 0 452"
+}
+{
 "classname" "ammo_pack"
+"origin" "-160 0 452"
+"targetname" "payload"
 }
 {
-"origin" "-672 672 72"
 "classname" "team_CTF_blueflag"
+"origin" "-672 672 64"
 "gametype" "ctf, oneflag"
-"angle" "225"
 }
 {
-"angle" "315"
-"origin" "-672 672 48"
 "classname" "team_blueobelisk"
-}
-{
-"origin" "672 -672 72"
-"classname" "team_CTF_redflag"
-"gametype" "ctf, oneflag"
-"angle" "45"
-}
-{
-"angle" "135"
-"origin" "672 -672 48"
-"classname" "team_redobelisk"
-}
-{
-"count" "128"
-"identifier" "3"
-"origin" "-672 672 72"
-"classname" "team_dom_point"
-}
-{
-"classname" "team_dom_point"
-"origin" "672 672 72"
-"identifier" "2"
-"count" "128"
-}
-{
-"count" "128"
-"identifier" "1"
-"origin" "672 -672 72"
-"classname" "team_dom_point"
-}
-
-//Added by Kr3m
-
-{
+"origin" "-672 672 48"
 "angle" "315"
-"origin" "0 0 -16"
-"classname" "team_CTF_neutralflag"
-"gametype" "oneflag"
 }
-
 {
-"angle" "45"
-"origin" "0 0 -40"
-"classname" "team_neutralobelisk"
-"gametype" "oneflag, harvester"
+"classname" "team_CTF_redflag"
+"origin" "672 -672 64"
+"gametype" "ctf, oneflag"
+}
+{
+"classname" "team_redobelisk"
+"origin" "672 -672 48"
+"angle" "135"
+}
+{
+"classname" "team_dom_point"
+"origin" "-672 672 72"
+"identifier" "3"
+"count" "128"
+}
+{
+"count" "128"
+"identifier" "2"
+"origin" "672 672 72"
+"classname" "team_dom_point"
+}
+{
+"classname" "team_dom_point"
+"origin" "672 -672 72"
+"identifier" "1"
+"count" "128"
 }
