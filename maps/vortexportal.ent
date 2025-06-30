@@ -1959,3 +1959,62 @@
 "classname" "info_player_deathmatch"
 "angle" "180"
 }
+
+//Added by Kr3m
+
+{
+"classname" "weapon_nailgun"
+"origin" "-144 -10240 288"
+}
+{
+"classname" "weapon_nailgun"
+"origin" "-144 10224 288"
+}
+{
+"classname" "ammo_nails"
+"origin" "680 10376 16"
+}
+{
+"origin" "672 -10088 16"
+"classname" "ammo_nails"
+}
+{
+"classname" "item_guard"
+"spawnflags" "2"
+"origin" "824 10376 32"
+}
+{
+"origin" "816 -10088 32"
+"spawnflags" "4"
+"classname" "item_guard"
+}
+{
+"origin" "184 11128 -96"
+"spawnflags" "2"
+"classname" "item_doubler"
+}
+{
+"origin" "176 -9336 -96"
+"spawnflags" "4"
+"classname" "item_doubler"
+}
+{
+"classname" "item_ammoregen"
+"spawnflags" "2"
+"origin" "-1032 10296 24"
+}
+{
+"classname" "item_ammoregen"
+"spawnflags" "4"
+"origin" "-1040 -10168 32"
+}
+{
+"classname" "item_scout"
+"origin" "-592 9928 -232"
+"spawnflags" "2"
+}
+{
+"origin" "-600 -10536 -232"
+"classname" "item_scout"
+"spawnflags" "4"
+}
