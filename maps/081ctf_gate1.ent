@@ -1,7 +1,7 @@
 {
 "classname" "worldspawn"
 "message" "Outer Gates (0.8.1 version)"
-"music" "music/OA07.ogg"
+"music" "music/oa07.wav"
 }
 {
 "classname" "weapon_railgun"
@@ -137,7 +137,9 @@
 }
 {
 "classname" "team_CTF_redflag"
-"origin" "1420 -512 108"
+"origin" "1420 -512 96"
+"angle" "270"
+"gametype" "ctf, oneflag"
 }
 {
 "classname" "item_health_large"
@@ -161,7 +163,9 @@
 }
 {
 "classname" "team_CTF_blueflag"
-"origin" "-1868 -196 120"
+"origin" "-1868 -196 96"
+"angle" "90"
+"gametype" "ctf, oneflag"
 "rotation" "-1 0 0 0 -1 0 0 0 1"
 }
 {
@@ -399,7 +403,8 @@
 }
 {
 "classname" "team_CTF_neutralflag"
-"origin" "-216 -352 224"
+"origin" "-216 -352 196"
+"gametype" "oneflag"
 }
 {
 "classname" "weapon_nailgun"
@@ -419,10 +424,13 @@
 {
 "classname" "team_neutralobelisk"
 "origin" "-224.000000 -352.000000 172.000000"
+"angle" "90"
+"gametype" "oneflag, harvester"
 }
 {
 "classname" "team_blueobelisk"
 "origin" "-1864.000000 -192.000000 72.000000"
+"angle" "180"
 }
 {
 "classname" "team_redobelisk"
