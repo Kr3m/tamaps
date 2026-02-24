@@ -428,8 +428,9 @@
 }
 {
 "gametype" "oneflag ctf dd"
-"origin" "5696 928 -308"
+"origin" "5696 928 -320"
 "classname" "team_CTF_blueflag"
+"angle" "135"
 }
 {
 "origin" "2112 608 416"
@@ -644,7 +645,8 @@
 }
 {
 "gametype" "oneflag ctf dd"
-"origin" "-5696 -928 -304"
+"origin" "-5696 -928 -320"
+"angle" "315"
 "classname" "team_CTF_redflag"
 }
 {
@@ -1098,23 +1100,24 @@
 "classname" "info_player_start"
 }
 {
-"gametype" "obelisk harvester overload"
-"origin" "-5696 -928 -336"
+"origin" "-5696 -928 -344"
+"angle" "45"
 "classname" "team_redobelisk"
 }
 {
-"gametype" "obelisk harvester overload"
-"origin" "5696 928 -336"
+"origin" "5696 928 -344"
 "classname" "team_blueobelisk"
+"angle" "225"
 }
 {
 "gametype" "oneflag"
-"origin" "0 0 -328"
+"origin" "0 0 -352"
 "classname" "team_CTF_neutralflag"
 }
 {
-"gametype" "harvester"
-"origin" "0 0 -344"
+"gametype" "oneflag, harvester"
+"origin" "0 0 -376"
+"angle" "90"
 "classname" "team_neutralobelisk"
 }
 {
