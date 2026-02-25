@@ -1,0 +1,998 @@
+{
+"classname" "worldspawn"
+"music" "music/OA09.ogg"
+"message" "Hydrocapture (0.7.1 version)"
+"_q3map2_cmdline" "-flares -meta -patchmeta -verboseentities; -vis; -light -dark -dirt -fast -filter -patchshadows -bounce 8 -gamma 1.2 -samples 3"
+"_q3map2_version" "2.5.17n-git-b25aa87"
+}
+{
+"classname" "item_health"
+"angle" "88.72"
+"origin" "128 -2432 216"
+}
+{
+"classname" "item_health"
+"angle" "90.0392"
+"origin" "-128 -2432 216"
+}
+{
+"classname" "item_armor_combat"
+"angle" "90.5153"
+"origin" "0 -960 -320"
+}
+{
+"classname" "weapon_rocketlauncher"
+"angle" "89.5877"
+"origin" "0 -3200 64"
+}
+{
+"classname" "ammo_rockets"
+"angle" "89.5376"
+"origin" "256 -3456 64"
+}
+{
+"classname" "ammo_rockets"
+"angle" "89.5376"
+"origin" "-256 -3456 64"
+}
+{
+"classname" "weapon_rocketlauncher"
+"angle" "-90"
+"origin" "0 -4160 -32"
+}
+{
+"classname" "ammo_rockets"
+"angle" "-91.3233"
+"origin" "128 -4160 -32"
+}
+{
+"classname" "ammo_rockets"
+"angle" "-91.3233"
+"origin" "-128 -4160 -32"
+}
+{
+"classname" "weapon_shotgun"
+"angle" "45.0885"
+"origin" "-576 -5376 -32"
+}
+{
+"classname" "ammo_shells"
+"angle" "44.5387"
+"origin" "-512 -5440 -32"
+}
+{
+"classname" "weapon_railgun"
+"origin" "0 -1792 216"
+}
+{
+"classname" "ammo_slugs"
+"angle" "-90"
+"origin" "128 -1792 216"
+}
+{
+"classname" "ammo_slugs"
+"angle" "-90"
+"origin" "-128 -1792 216"
+}
+{
+"classname" "weapon_plasmagun"
+"angle" "137.798"
+"origin" "576 -5376 -32"
+}
+{
+"classname" "ammo_cells"
+"angle" "133.351"
+"origin" "512 -5440 -32"
+}
+{
+"classname" "ammo_cells"
+"angle" "133.351"
+"origin" "640 -5312 -32"
+}
+{
+"classname" "item_health"
+"angle" "-132.646"
+"origin" "576 -3776 -32"
+}
+{
+"classname" "item_health"
+"angle" "-44.8268"
+"origin" "-576 -3776 -32"
+}
+{
+"classname" "weapon_grenadelauncher"
+"angle" "89.1722"
+"origin" "576 -3456 64"
+}
+{
+"classname" "ammo_lightning"
+"angle" "90.7635"
+"origin" "-704 -3456 64"
+}
+{
+"classname" "ammo_lightning"
+"angle" "90.7635"
+"origin" "-448 -3456 64"
+}
+{
+"classname" "ammo_grenades"
+"angle" "90.7635"
+"origin" "704 -3456 64"
+}
+{
+"classname" "weapon_lightning"
+"angle" "88.2412"
+"origin" "-576 -3456 64"
+}
+{
+"classname" "item_health_small"
+"origin" "552 -704 64"
+}
+{
+"classname" "item_health_small"
+"origin" "552 -960 64"
+}
+{
+"classname" "item_health_small"
+"origin" "-544 -960 64"
+}
+{
+"classname" "item_health_small"
+"origin" "552 -1088 64"
+}
+{
+"classname" "item_health_small"
+"origin" "552 -1216 64"
+}
+{
+"classname" "item_health_small"
+"origin" "-544 -704 64"
+}
+{
+"classname" "item_health_small"
+"origin" "-544 -960 64"
+}
+{
+"classname" "item_health_small"
+"origin" "-544 -1216 64"
+}
+{
+"classname" "item_health_small"
+"origin" "-544 -1088 64"
+}
+{
+"classname" "item_health_small"
+"origin" "552 -832 64"
+}
+{
+"classname" "item_health_small"
+"origin" "-544 -832 64"
+}
+{
+"classname" "item_health_mega"
+"angle" "91.1763"
+"origin" "0 -3008 64"
+}
+{
+"classname" "item_armor_combat"
+"angle" "89.3972"
+"origin" "0 -3968 -32"
+}
+{
+"classname" "ammo_shells"
+"angle" "44.5387"
+"origin" "-640 -5312 -32"
+}
+{
+"classname" "ammo_rockets"
+"angle" "90.7635"
+"origin" "448 -3456 64"
+}
+{
+"classname" "team_CTF_blueflag"
+"angle" "90.3519"
+"origin" "0 -5504 0"
+}
+{
+"classname" "info_player_deathmatch"
+"notteam" "1"
+"angle" "-90.000000"
+"origin" "584.000000 -376.000000 64.000000"
+"spawnflags" "1"
+}
+{
+"classname" "item_health"
+"angle" "-91.28"
+"origin" "-128 2368 216"
+}
+{
+"classname" "item_health"
+"angle" "-89.9608"
+"origin" "128 2368 216"
+}
+{
+"classname" "item_armor_combat"
+"angle" "-89.4847"
+"origin" "0 896 -320"
+}
+{
+"classname" "weapon_rocketlauncher"
+"angle" "-90.4123"
+"origin" "0 3136 64"
+}
+{
+"classname" "ammo_rockets"
+"angle" "-90.4624"
+"origin" "-256 3392 64"
+}
+{
+"classname" "ammo_rockets"
+"angle" "-90.4624"
+"origin" "256 3392 64"
+}
+{
+"classname" "weapon_rocketlauncher"
+"angle" "90"
+"origin" "0 4096 -32"
+}
+{
+"classname" "ammo_rockets"
+"angle" "88.677"
+"origin" "-128 4096 -32"
+}
+{
+"classname" "ammo_rockets"
+"angle" "88.677"
+"origin" "128 4096 -32"
+}
+{
+"classname" "weapon_shotgun"
+"angle" "-134.911"
+"origin" "576 5312 -32"
+}
+{
+"classname" "ammo_shells"
+"angle" "-135.461"
+"origin" "512 5376 -32"
+}
+{
+"classname" "weapon_railgun"
+"angle" "180"
+"origin" "0 1728 216"
+}
+{
+"classname" "ammo_slugs"
+"angle" "90"
+"origin" "-128 1728 216"
+}
+{
+"classname" "ammo_slugs"
+"angle" "90"
+"origin" "128 1728 216"
+}
+{
+"classname" "weapon_plasmagun"
+"angle" "-42.202"
+"origin" "-576 5312 -32"
+}
+{
+"classname" "ammo_cells"
+"angle" "-46.649"
+"origin" "-512 5376 -32"
+}
+{
+"classname" "ammo_cells"
+"angle" "-46.649"
+"origin" "-640 5248 -32"
+}
+{
+"classname" "item_health"
+"angle" "47.354"
+"origin" "-576 3712 -32"
+}
+{
+"classname" "item_health"
+"angle" "135.173"
+"origin" "576 3712 -32"
+}
+{
+"classname" "weapon_grenadelauncher"
+"angle" "-90.8278"
+"origin" "-576 3392 64"
+}
+{
+"classname" "ammo_lightning"
+"angle" "-89.2365"
+"origin" "704 3392 64"
+}
+{
+"classname" "ammo_lightning"
+"angle" "-89.2365"
+"origin" "448 3392 64"
+}
+{
+"classname" "ammo_grenades"
+"angle" "-89.2365"
+"origin" "-704 3392 64"
+}
+{
+"classname" "weapon_lightning"
+"angle" "-91.7588"
+"origin" "576 3392 64"
+}
+{
+"classname" "item_health_small"
+"angle" "180"
+"origin" "-552 640 64"
+}
+{
+"classname" "item_health_small"
+"angle" "180"
+"origin" "-552 896 64"
+}
+{
+"classname" "item_health_small"
+"angle" "180"
+"origin" "544 896 64"
+}
+{
+"classname" "item_health_small"
+"angle" "180"
+"origin" "-552 1024 64"
+}
+{
+"classname" "item_health_small"
+"angle" "180"
+"origin" "-552 1152 64"
+}
+{
+"classname" "item_health_small"
+"angle" "180"
+"origin" "544 640 64"
+}
+{
+"classname" "item_health_small"
+"angle" "180"
+"origin" "544 896 64"
+}
+{
+"classname" "item_health_small"
+"angle" "180"
+"origin" "544 1152 64"
+}
+{
+"classname" "item_health_small"
+"angle" "180"
+"origin" "544 1024 64"
+}
+{
+"classname" "item_health_small"
+"angle" "180"
+"origin" "-552 768 64"
+}
+{
+"classname" "item_health_small"
+"angle" "180"
+"origin" "544 768 64"
+}
+{
+"classname" "item_health_mega"
+"angle" "-88.8237"
+"origin" "0 2944 64"
+}
+{
+"classname" "team_CTF_redflag"
+"angle" "-89.6481"
+"origin" "0 5440 0"
+}
+{
+"classname" "item_armor_combat"
+"angle" "-90.6028"
+"origin" "0 3904 -32"
+}
+{
+"classname" "ammo_shells"
+"angle" "-135.461"
+"origin" "640 5248 -32"
+}
+{
+"classname" "ammo_rockets"
+"angle" "-89.2365"
+"origin" "-448 3392 64"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "90.2887"
+"origin" "704 -2976 72"
+"spawnflags" "1"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "90.2887"
+"origin" "-704 -2984 72"
+"spawnflags" "1"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "-89.1122"
+"origin" "-280 -2680 72"
+"spawnflags" "1"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "-90.0885"
+"origin" "288 -2688 72"
+"spawnflags" "1"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "-89.7113"
+"origin" "-704 2912 72"
+"spawnflags" "1"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "-89.7113"
+"origin" "704 2920 72"
+"spawnflags" "1"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "90.888"
+"origin" "280 2616 72"
+"spawnflags" "1"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "89.911"
+"origin" "-288 2624 72"
+"spawnflags" "1"
+}
+{
+"classname" "team_CTF_bluespawn"
+"angle" "90.2887"
+"origin" "704 -2976 72"
+}
+{
+"classname" "team_CTF_bluespawn"
+"angle" "90.2887"
+"origin" "-704 -2984 72"
+}
+{
+"classname" "team_CTF_bluespawn"
+"angle" "-89.1122"
+"origin" "-280 -2680 72"
+}
+{
+"classname" "team_CTF_bluespawn"
+"angle" "-90.0885"
+"origin" "288 -2688 72"
+}
+{
+"classname" "team_CTF_blueplayer"
+"angle" "90.2887"
+"origin" "704 -2976 72"
+}
+{
+"classname" "team_CTF_blueplayer"
+"angle" "90.2887"
+"origin" "-704 -2984 72"
+}
+{
+"classname" "team_CTF_blueplayer"
+"angle" "-89.1122"
+"origin" "-280 -2680 72"
+}
+{
+"classname" "team_CTF_blueplayer"
+"angle" "-90.0885"
+"origin" "288 -2688 72"
+}
+{
+"classname" "team_CTF_redspawn"
+"angle" "-89.7113"
+"origin" "-704 2912 72"
+}
+{
+"classname" "team_CTF_redspawn"
+"angle" "-89.7113"
+"origin" "704 2920 72"
+}
+{
+"classname" "team_CTF_redspawn"
+"angle" "90.888"
+"origin" "280 2616 72"
+}
+{
+"classname" "team_CTF_redspawn"
+"angle" "89.911"
+"origin" "-288 2624 72"
+}
+{
+"classname" "team_CTF_redplayer"
+"angle" "-89.7113"
+"origin" "-704 2912 72"
+}
+{
+"classname" "team_CTF_redplayer"
+"angle" "-89.7113"
+"origin" "704 2920 72"
+}
+{
+"classname" "team_CTF_redplayer"
+"angle" "90.888"
+"origin" "280 2616 72"
+}
+{
+"classname" "team_CTF_redplayer"
+"angle" "89.911"
+"origin" "-288 2624 72"
+}
+{
+"classname" "team_redobelisk"
+"origin" "0.000000 5440.000000 -40.000000"
+}
+{
+"classname" "team_blueobelisk"
+"origin" "0.000000 -5504.000000 -40.000000"
+}
+{
+"classname" "team_neutralobelisk"
+"origin" "0.000000 -32.000000 24.000000"
+}
+{
+"classname" "team_CTF_neutralflag"
+"origin" "0.000000 -32.000000 96.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-584.000000 -1912.000000 64.000000"
+"spawnflags" "1"
+"angle" "90.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"notteam" "1"
+"angle" "-90.000000"
+"origin" "-584.000000 -376.000000 64.000000"
+"spawnflags" "1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "584.000000 -1912.000000 64.000000"
+"spawnflags" "1"
+"angle" "90.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"notteam" "1"
+"angle" "-90.000000"
+"origin" "584.000000 1848.000000 64.000000"
+"spawnflags" "1"
+}
+{
+"classname" "info_player_deathmatch"
+"notteam" "1"
+"angle" "-90"
+"origin" "-584.000000 1848.000000 64.000000"
+"spawnflags" "1"
+}
+{
+"classname" "info_player_deathmatch"
+"notteam" "1"
+"angle" "89.999992"
+"origin" "-584.000000 312.000000 64.000000"
+"spawnflags" "1"
+}
+{
+"classname" "info_player_deathmatch"
+"notteam" "1"
+"angle" "89.999992"
+"origin" "584.000000 312.000000 64.000000"
+"spawnflags" "1"
+}
+{
+"classname" "info_player_intermission"
+"origin" "576.000000 -1568.000000 352.000000"
+"target" "info_notnull1"
+}
+{
+"classname" "info_notnull"
+"origin" "-64.000000 -512.000000 256.000000"
+"targetname" "info_notnull1"
+}
+{
+"classname" "target_location"
+"origin" "0.000000 -1536.000000 128.000000"
+"message" "Blue Outside"
+}
+{
+"classname" "target_location"
+"origin" "0.000000 -5248.000000 0.000000"
+"message" "Blue Base"
+}
+{
+"classname" "target_location"
+"origin" "-512.000000 -5248.000000 0.000000"
+"message" "Blue Base"
+}
+{
+"classname" "target_location"
+"origin" "512.000000 -5248.000000 0.000000"
+"message" "Blue Base"
+}
+{
+"classname" "target_location"
+"origin" "512.000000 -4736.000000 0.000000"
+"message" "Blue Base"
+}
+{
+"classname" "target_location"
+"origin" "0.000000 -4736.000000 0.000000"
+"message" "Blue Base"
+}
+{
+"classname" "target_location"
+"origin" "-512.000000 -4736.000000 0.000000"
+"message" "Blue Base"
+}
+{
+"classname" "target_location"
+"origin" "-512.000000 -4224.000000 0.000000"
+"message" "Blue Base"
+}
+{
+"classname" "target_location"
+"origin" "0.000000 -4224.000000 0.000000"
+"message" "Blue Base"
+}
+{
+"classname" "target_location"
+"origin" "512.000000 -4224.000000 0.000000"
+"message" "Blue Base"
+}
+{
+"classname" "target_location"
+"origin" "512.000000 3712.000000 0.000000"
+"message" "Red Base"
+}
+{
+"classname" "target_location"
+"origin" "640.000000 5248.000000 0.000000"
+"message" "Red Base"
+}
+{
+"classname" "target_location"
+"origin" "-512.000000 3712.000000 0.000000"
+"message" "Red Base"
+}
+{
+"classname" "target_location"
+"origin" "0.000000 -3328.000000 128.000000"
+"message" "Blue Entrance"
+}
+{
+"classname" "target_location"
+"origin" "0.000000 -2816.000000 128.000000"
+"message" "Blue (Behind Sniper)"
+}
+{
+"classname" "target_location"
+"origin" "-512.000000 -2816.000000 128.000000"
+"message" "Blue (Behind Sniper)"
+}
+{
+"classname" "target_location"
+"origin" "512.000000 -2816.000000 128.000000"
+"message" "Blue (Behind Sniper)"
+}
+{
+"classname" "target_location"
+"origin" "512.000000 -3328.000000 128.000000"
+"message" "Blue (Near Entrance)"
+}
+{
+"classname" "target_location"
+"origin" "-512.000000 -3328.000000 128.000000"
+"message" "Blue (Near Entrance)"
+}
+{
+"classname" "target_location"
+"origin" "-512.000000 -2304.000000 128.000000"
+"message" "Blue West Road"
+}
+{
+"classname" "target_location"
+"origin" "512.000000 -2304.000000 128.000000"
+"message" "Blue East Road"
+}
+{
+"classname" "target_location"
+"origin" "512.000000 -1792.000000 128.000000"
+"message" "Blue East Road"
+}
+{
+"classname" "target_location"
+"origin" "-512.000000 -1792.000000 128.000000"
+"message" "Blue West Road"
+}
+{
+"classname" "target_location"
+"origin" "-512.000000 -1280.000000 128.000000"
+"message" "Blue West Bridge"
+}
+{
+"classname" "target_location"
+"origin" "-512.000000 -768.000000 128.000000"
+"message" "Blue West Bridge"
+}
+{
+"classname" "target_location"
+"origin" "512.000000 -1280.000000 -256.000000"
+"message" "Blue Underwater"
+}
+{
+"classname" "target_location"
+"origin" "512.000000 -1280.000000 128.000000"
+"message" "Blue East Bridge"
+}
+{
+"classname" "target_location"
+"origin" "512.000000 -768.000000 128.000000"
+"message" "Blue East Bridge"
+}
+{
+"classname" "target_location"
+"origin" "512.000000 -256.000000 128.000000"
+"message" "Central (Blue Side)"
+}
+{
+"classname" "target_location"
+"origin" "0.000000 -256.000000 128.000000"
+"message" "Central (Blue Side)"
+}
+{
+"classname" "target_location"
+"origin" "-512.000000 -256.000000 128.000000"
+"message" "Central (Blue Side)"
+}
+{
+"classname" "target_location"
+"origin" "0.000000 192.000000 128.000000"
+"message" "Central (Red Side)"
+}
+{
+"classname" "target_location"
+"origin" "-512.000000 192.000000 128.000000"
+"message" "Central (Red Side)"
+}
+{
+"classname" "target_location"
+"origin" "512.000000 192.000000 128.000000"
+"message" "Central (Red Side)"
+}
+{
+"classname" "target_location"
+"origin" "512.000000 704.000000 128.000000"
+"message" "Red East Bridge"
+}
+{
+"classname" "target_location"
+"origin" "512.000000 1216.000000 128.000000"
+"message" "Red East Bridge"
+}
+{
+"classname" "target_location"
+"origin" "0.000000 3264.000000 128.000000"
+"message" "Red Entrance"
+}
+{
+"classname" "target_location"
+"origin" "-480.000000 -32.000000 -224.000000"
+"message" "East Sewer"
+}
+{
+"classname" "target_location"
+"origin" "0.000000 -1792.000000 256.000000"
+"message" "Blue Sniper"
+}
+{
+"classname" "target_location"
+"origin" "-512.000000 2240.000000 128.000000"
+"message" "Red West Road"
+}
+{
+"classname" "target_location"
+"origin" "512.000000 2240.000000 128.000000"
+"message" "Red East Road"
+}
+{
+"classname" "target_location"
+"origin" "512.000000 1728.000000 128.000000"
+"message" "Red East Road"
+}
+{
+"classname" "target_location"
+"origin" "512.000000 2752.000000 128.000000"
+"message" "Red (Behind Sniper)"
+}
+{
+"classname" "target_location"
+"origin" "0.000000 2752.000000 128.000000"
+"message" "Red (Behind Sniper)"
+}
+{
+"classname" "target_location"
+"origin" "-512.000000 2752.000000 128.000000"
+"message" "Red (Behind Sniper)"
+}
+{
+"classname" "target_location"
+"origin" "-512.000000 3264.000000 128.000000"
+"message" "Red (Near Entrance)"
+}
+{
+"classname" "target_location"
+"origin" "512.000000 3264.000000 128.000000"
+"message" "Red (Near Entrance)"
+}
+{
+"classname" "target_location"
+"origin" "512.000000 -3712.000000 0.000000"
+"message" "Blue Base"
+}
+{
+"classname" "target_location"
+"origin" "0.000000 -3712.000000 0.000000"
+"message" "Blue Base"
+}
+{
+"classname" "target_location"
+"origin" "-512.000000 -3712.000000 0.000000"
+"message" "Blue Base"
+}
+{
+"classname" "target_location"
+"origin" "0.000000 3712.000000 0.000000"
+"message" "Red Base"
+}
+{
+"classname" "target_location"
+"origin" "0.000000 5248.000000 0.000000"
+"message" "Red Base"
+}
+{
+"classname" "target_location"
+"origin" "-512.000000 5248.000000 0.000000"
+"message" "Red Base"
+}
+{
+"classname" "target_location"
+"origin" "640.000000 4224.000000 0.000000"
+"message" "Red Base"
+}
+{
+"classname" "target_location"
+"origin" "0.000000 4224.000000 0.000000"
+"message" "Red Base"
+}
+{
+"classname" "target_location"
+"origin" "-512.000000 4224.000000 0.000000"
+"message" "Red Base"
+}
+{
+"classname" "target_location"
+"origin" "640.000000 4736.000000 0.000000"
+"message" "Red Base"
+}
+{
+"classname" "target_location"
+"origin" "0.000000 4736.000000 0.000000"
+"message" "Red Base"
+}
+{
+"classname" "target_location"
+"origin" "-512.000000 4736.000000 0.000000"
+"message" "Red Base"
+}
+{
+"classname" "target_location"
+"origin" "-512.000000 1728.000000 128.000000"
+"message" "Red West Road"
+}
+{
+"classname" "target_location"
+"origin" "0.000000 1728.000000 256.000000"
+"message" "Red Sniper"
+}
+{
+"classname" "target_location"
+"origin" "0.000000 2240.000000 256.000000"
+"message" "Red Sniper"
+}
+{
+"classname" "target_location"
+"origin" "0.000000 -2304.000000 256.000000"
+"message" "Blue Sniper"
+}
+{
+"classname" "target_location"
+"origin" "-512.000000 704.000000 128.000000"
+"message" "Red West Bridge"
+}
+{
+"classname" "target_location"
+"origin" "-512.000000 1216.000000 128.000000"
+"message" "Red West Bridge"
+}
+{
+"classname" "target_location"
+"origin" "-512.000000 -1280.000000 -256.000000"
+"message" "Blue Underwater"
+}
+{
+"classname" "target_location"
+"origin" "-512.000000 -768.000000 -256.000000"
+"message" "Blue Underwater"
+}
+{
+"classname" "target_location"
+"origin" "0.000000 -768.000000 -256.000000"
+"message" "Blue Underwater"
+}
+{
+"classname" "target_location"
+"origin" "512.000000 704.000000 -256.000000"
+"message" "Red Underwater"
+}
+{
+"classname" "target_location"
+"origin" "-512.000000 1216.000000 -256.000000"
+"message" "Red Underwater"
+}
+{
+"classname" "target_location"
+"origin" "512.000000 1216.000000 -256.000000"
+"message" "Red Underwater"
+}
+{
+"classname" "target_location"
+"origin" "-512.000000 704.000000 -256.000000"
+"message" "Red Underwater"
+}
+{
+"classname" "target_location"
+"origin" "0.000000 704.000000 -256.000000"
+"message" "Red Underwater"
+}
+{
+"classname" "target_location"
+"origin" "512.000000 -768.000000 -256.000000"
+"message" "Blue Underwater"
+}
+{
+"classname" "target_location"
+"origin" "-480.000000 -288.000000 -224.000000"
+"message" "East Sewer"
+}
+{
+"classname" "target_location"
+"origin" "-480.000000 224.000000 -224.000000"
+"message" "East Sewer"
+}
+{
+"classname" "target_location"
+"origin" "480.000000 -288.000000 -224.000000"
+"message" "West Sewer"
+}
+{
+"classname" "target_location"
+"origin" "480.000000 -32.000000 -224.000000"
+"message" "West Sewer"
+}
+{
+"classname" "target_location"
+"origin" "480.000000 224.000000 -224.000000"
+"message" "West Sewer"
+}
