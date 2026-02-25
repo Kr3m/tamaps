@@ -1,6 +1,6 @@
 {
 "classname" "worldspawn"
-"music" "music/OA09.ogg"
+"music" "music/OA09.wav"
 "message" "Hydrocapture (0.7.1 version)"
 "_q3map2_cmdline" "-flares -meta -patchmeta -verboseentities; -vis; -light -dark -dirt -fast -filter -patchshadows -bounce 8 -gamma 1.2 -samples 3"
 "_q3map2_version" "2.5.17n-git-b25aa87"
@@ -191,7 +191,8 @@
 {
 "classname" "team_CTF_blueflag"
 "angle" "90.3519"
-"origin" "0 -5504 0"
+"origin" "0 -5504 -16"
+"gametype" "ctf, oneflag"
 }
 {
 "classname" "info_player_deathmatch"
@@ -382,8 +383,9 @@
 }
 {
 "classname" "team_CTF_redflag"
-"angle" "-89.6481"
-"origin" "0 5440 0"
+"origin" "0 5440 -16"
+"angle" "180"
+"gametype" "ctf, oneflag"
 }
 {
 "classname" "item_armor_combat"
@@ -531,18 +533,22 @@
 {
 "classname" "team_redobelisk"
 "origin" "0.000000 5440.000000 -40.000000"
+"angle" "270"
 }
 {
 "classname" "team_blueobelisk"
+"angle" "90"
 "origin" "0.000000 -5504.000000 -40.000000"
 }
 {
 "classname" "team_neutralobelisk"
 "origin" "0.000000 -32.000000 24.000000"
+"gametype" "oneflag, harvester"
 }
 {
 "classname" "team_CTF_neutralflag"
-"origin" "0.000000 -32.000000 96.000000"
+"origin" "0.000000 -32.000000 48.000000"
+"angle" "270"
 }
 {
 "classname" "info_player_deathmatch"
