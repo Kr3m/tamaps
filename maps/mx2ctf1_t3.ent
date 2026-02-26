@@ -553,13 +553,14 @@
 }
 {
 "classname" "team_CTF_blueflag"
-"origin" "-256.000000 -192.000000 -168.000000"
+"origin" "-256.000000 -192.000000 -164.000000"
 "gametype" "ctf, oneflag, dd, ctfelimination"
 }
 {
 "classname" "team_CTF_redflag"
-"origin" "-216.000000 3328.000000 -168.000000"
+"origin" "-216.000000 3328.000000 -164.000000"
 "gametype" "ctf, oneflag, dd, ctfelimination"
+"angle" "180"
 }
 {
 "classname" "item_health_small"
@@ -845,16 +846,17 @@
 {
 "classname" "team_blueobelisk"
 "origin" "-256.000000 -192.000000 -188.000000"
-"gametype" "obelisk, harvester"
+"angle" "90"
 }
 {
 "classname" "team_redobelisk"
 "origin" "-216.000000 3328.000000 -188.000000"
-"gametype" "obelisk, harvester"
+"angle" "270"
 }
 {
 "classname" "team_CTF_neutralflag"
-"origin" "-240.000000 1568.000000 -344.000000"
+"origin" "-240.000000 1568.000000 -348.000000"
+"angle" "270"
 "spawnflags" "1"
 "gametype" "oneflag"
 }
@@ -867,7 +869,7 @@
 {
 "classname" "team_neutralobelisk"
 "origin" "-240.000000 1568.000000 -372.000000"
-"gametype" "harvester"
+"gametype" "oneflag, harvester"
 }
 {
 "classname" "weapon_plasmagun"
