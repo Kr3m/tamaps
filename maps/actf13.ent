@@ -2085,20 +2085,6 @@
 //Added by Kr3m
 
 {
-"origin" "-1312 -992 -168"
-"classname" "team_CTF_neutralflag"
-"spawnflags" "1"
-"gametype" "oneflag"
-}
-
-{
-"origin" "-1312 -992 -192"
-"classname" "team_neutralobelisk"
-"spawnflags" "1"
-"gametype" "oneflag, harvester"
-}
-
-{
 "origin" "448 -192 16"
 "classname" "team_redobelisk"
 "angle" "135"
@@ -2108,4 +2094,19 @@
 "angle" "45"
 "origin" "-3072 -192 16"
 "classname" "team_blueobelisk"
+}
+
+{
+"origin" "-1312 -180 0"
+"angle" "90"
+"classname" "team_neutralobelisk"
+"spawnflags" "1"
+"gametype" "oneflag, harvester"
+}
+
+{
+"origin" "-1312 -180 24"
+"classname" "team_CTF_neutralflag"
+"spawnflags" "1"
+"gametype" "oneflag"
 }
