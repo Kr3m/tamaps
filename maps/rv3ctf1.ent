@@ -3516,7 +3516,7 @@
 "classname" "team_neutralobelisk"
 "gametype" "oneflag harvester"
 }
-{`
+{
 "origin" "2872 8 46"
 "classname" "team_redobelisk"
 }
