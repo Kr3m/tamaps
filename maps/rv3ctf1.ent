@@ -3244,6 +3244,12 @@
 {
 "origin" "-128 0 -752"
 "classname" "item_quad"
+"gametype" "ctf"
+}
+{
+"origin" "-128 0 -752"
+"classname" "holdable_kamikaze"
+"gametype" "obelisk"
 }
 {
 "origin" "760 0 -880"
@@ -3350,8 +3356,10 @@
 "classname" "item_armor_shard"
 }
 {
-"origin" "-3128 -8 60"
+"origin" "-3128 -8 70"
 "classname" "team_CTF_blueflag"
+"gametype" "ctf oneflag"
+"angle" "90"
 }
 {
 "origin" "-3328 0 200"
@@ -3400,8 +3408,10 @@
 "classname" "team_CTF_redplayer"
 }
 {
-"origin" "2872 8 60"
+"origin" "2872 8 70"
+"angle" "270"
 "classname" "team_CTF_redflag"
+"gametype" "ctf oneflag"
 }
 {
 "classname" "target_remove_powerups"
@@ -3494,4 +3504,56 @@
 "classname" "trigger_multiple"
 "target" "t157"
 "model" "*34"
+}
+{
+"origin" "-128 0 -742"
+"classname" "team_CTF_neutralflag"
+"gametype" "oneflag"
+}
+{
+"origin" "-128 0 -766"
+"angle" "90"
+"classname" "team_neutralobelisk"
+"gametype" "oneflag harvester"
+}
+{`
+"origin" "2872 8 46"
+"classname" "team_redobelisk"
+}
+{
+"origin" "-3128 -8 46"
+"angle" "180"
+"classname" "team_blueobelisk"
+}
+{
+"origin" "-3444 560 48"
+"classname" "item_guard"
+}
+{
+"origin" "-3444 -560 48"
+"classname" "item_doubler"
+}
+{
+"origin" "-1808 -560 48"
+"classname" "item_ammoregen"
+}
+{
+"origin" "-1808 560 48"
+"classname" "item_scout"
+}
+{
+"origin" "3188 -560 48"
+"classname" "item_guard"
+}
+{
+"origin" "3188 560 48"
+"classname" "item_doubler"
+}
+{
+"origin" "1552 560 48"
+"classname" "item_ammoregen"
+}
+{
+"origin" "1552 -560 48"
+"classname" "item_scout"
 }
