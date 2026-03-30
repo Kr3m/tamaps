@@ -1498,12 +1498,15 @@
 }
 {
 "classname" "team_CTF_blueflag"
-"origin" "-2944 0 320"
+"origin" "-2944 0 280"
+"angle" "270"
+"gametype" "ctf oneflag"
 }
 {
 "classname" "team_CTF_redflag"
-"origin" "2816 128 320"
-"angle" "180"
+"origin" "2816 128 280"
+"angle" "90"
+"gametype" "ctf oneflag"
 }
 {
 "classname" "team_CTF_blueplayer"
@@ -1595,6 +1598,7 @@
 {
 "classname" "item_quad"
 "origin" "-64 64 -208"
+"gametype" "ctf oneflag"
 }
 {
 "classname" "team_CTF_blueplayer"
@@ -1758,6 +1762,7 @@
 {
 "classname" "weapon_lightning"
 "origin" "-64 64 48"
+"gametype" "ctf obelisk"
 }
 {
 "classname" "team_CTF_redspawn"
@@ -2404,4 +2409,31 @@
 "classname" "info_notnull"
 "origin" "-64 192 -192"
 "targetname" "t61"
+}
+
+//added by Kr3m
+{
+"classname" "holdable_kamikaze"
+"origin" "-64 64 -208"
+"gametype" "obelisk harvester"
+}
+{
+"classname" "team_CTF_neutralflag"
+"origin" "-64 64 24"
+"gametype" "oneflag"
+}
+{
+"classname" "team_neutralobelisk"
+"origin" "-64 64 0"
+"angle" "90"
+"gametype" "oneflag harvester"
+}
+{
+"classname" "team_redobelisk"
+"origin" "2816 128 256"
+"angle" "180"
+}
+{
+"classname" "team_blueobelisk"
+"origin" "-2944 0 256"
 }
