@@ -488,21 +488,21 @@
 "origin" "480 -296 -544"
 "classname" "item_health_large"
 }
-{
-"target" "t3"
-"spawnflags" "1"
-"random" "0"
-"wait" "1"
-"origin" "-128 -1280 -160"
-"classname" "func_timer"
-}
-{
-"targetname" "t3"
-"noise" "sound/world/wind1.wav"
-"spawnflags" "4"
-"origin" "-64 -1280 -160"
-"classname" "target_speaker"
-}
+//{
+//"target" "t3"
+//"spawnflags" "1"
+//"random" "0"
+//"wait" "1"
+//"origin" "-128 -1280 -160"
+//"classname" "func_timer"
+//}
+//{
+//"targetname" "t3"
+//"noise" "sound/world/wind1.wav"
+//"spawnflags" "4"
+//"origin" "-64 -1280 -160"
+//"classname" "target_speaker"
+//}
 {
 "angle" "90"
 "origin" "-8 -1536 -160"
